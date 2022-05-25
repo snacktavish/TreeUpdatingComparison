@@ -12,8 +12,8 @@ We've talked a lot about estimating trees.
 In this tutorial we will walk through:
   * Standardizing taxon names
   * Getting existing trees for arbitrary sets of taxa
-  * Uploading trees to Open Tree of Life
   * Visualizing conflict between estimates
+  * Getting date estimates for nodes
   * Updating an existing phylogeny with new data from GenBank
 
 
@@ -95,8 +95,8 @@ In order to do so, you need to map taxon names to unique identifiers.
 
 Get the tutorial folder using
 ```
-    git clone https://github.com/snacktavish/Mole2019.git
-    cd  Mole2019/tutorial
+    git clone https://github.com/snacktavish/Mole2022.git
+    cd  Mole2022/tutorial
 ```
 
 The names of the taxa you included used in your tree estimation in Minh's lab are in the file
@@ -106,7 +106,6 @@ The names of the taxa you included used in your tree estimation in Minh's lab ar
 One of the key challenges of comparing trees across studies is minor differences in names and naming.
 We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
 
-(This is a brand new beta-version of this functionality, so some parts are a bit finicky).
 
 *Try this*
   * Click on "add names", and upload the names file. (tutorial/species_names.txt)  
@@ -119,13 +118,14 @@ Exact matches will show up in green, and can be accepted by clicking "accept exa
 
 A few taxa still show several suggested names. Click through to the taxonomy, and select the one that you think is correct based on the phylogenetic context. (The tree is in the tutorial file as well if you want to double check).
 
-Once you have accepted names for each of the taxa, click "save nameset".
+Once you have accepted names for each of the taxa, click "save nameset". 
+
+*Make sure your mappings were saved! If you don't 'accept' matches, they don't download.*
 
 Download it to your laptop.
 Extract the files.
 Take a look at the human readable version (output/main.csv).
 
-*Make sure your mappings were saved! If you don't 'accept' matches, they don't download.*
 
 main.json contains the the same data in a more computer readable format.
 Transfer the main.json file to the tutorial folder on the cluster.
@@ -144,56 +144,39 @@ It is often more convenient to manipulate both trees and names within a scriptin
 
 
 ### Using Python
-We will use wrappers available in the python packages Physcraper and Peyotl to make it easier to work with the Open Tree Api's
+We will use wrappers available in the python package [OpenTree](https://academic.oup.com/sysbio/article/70/6/1295/6273200) to make it easier to work with the Open Tree Api's.
 
-They are already installed on the cluster, in a python virtual environment.
+This package is already installed on your virtual machine, but you can install it on your own machine either using 
 
-To run these analyses on the cluster, activate the python virtual environment (this loads the installed modules)
-```
-source /class/molevol-software/venv-physcraper/bin/activate
+```pip install opentree```
 
-```
+or by cloning and installing from https://github.com/OpenTreeOfLife/python-opentree
 
-To install and run on your own laptop see the instructions on https://github.com/McTavishLab/physcraper/blob/master/INSTALL
-
-Your terminal should show **(venv-physcraper)** to the left of the bash prompt.
 
 ### Getting a subtree
 Take a look at the script in the tutorials folder 'get_subtree.py'.
-This script gets the OpenTree ids from your taxonomy mapping file 'main.json',
-and uses them to get a tree for those taxa.
 
-Edit the location of your json file, and run get subtree.py
 ```
-    $ python get_subtree.py
+    $ python get_synth_subtree.py --input-file output/main.csv 
+
 ```
 
-It will write two files out to your current working directory - the tree, 'synth_subtree.tre' and the citations of published trees that went into generating that tree, and support the relationships in it.
+It will write two files out to your current working directory - the tree in newick format, 'synth_subtree.tre' and 'citations.txt' the citations of published trees that went into generating that tree, and support the relationships in it.
 
 Move both those files to your computer.
 Open the synthetic subtree in figtree to look at the placement of turtles.
 
 
+
 ## Comparing trees
-Imagine that we want to get some more taxonomic context for our inferences that we made
-using IQ-TREE.
-How does the tree we estimated during that lab (which we know is contentious) compare to taxonomy and other published literature?
+Imagine that we want to get some more context for our inferences that we made when estimating tree.
+How does the tree we estimated compare to taxonomy and other published literature including these taxa?
 
 In order to make comparisons about statements that two different trees are making about the same set of taxa, we need to make sure the labels on the tree match.
 
-We will use our same taxonomy mapping file to match the tips of our estimated tree to the standardized labels in Open Tree.
+I have generated a tree file for you 'turtle_iqtree_OTT.tre' from  previous IQTtree excercies in this course, and labelled it with standardized taxon name labels.
 
-Open 'tutorial/rename_tips.py'.
 
-This is a very simple script that takes your mapped labels, and uses the conversion from 'original name' to replace the tip names on your tree with the standardized names
-
-Run this file. If you want to, replace the path to my turtle tree ('turtle_iqtree.tre') estimate with the one you estimated in Minh's lab
-```
-  $ python rename_tips.py
-```
-This should generate a file labelled 'turtle_iqtree_OTT.tre'
-
-Transfer this file to your computer.
 
 ### Using Phylo.io to compare two trees.
 A quick way to visualize even fairly large trees is
@@ -207,6 +190,13 @@ Upload both trees to phylo.io
 
 **Q** How so?
 
+
+## DIY section:
+
+
+- get a list of trees that have all 3 contentious taxa.
+
+
 ## Taxon re-naming
 'Podarcis' is missing from the tree downloaded from OpenTree, and is replaces with a node labelled 'mrca'.
 
@@ -218,35 +208,8 @@ https://tree.opentreeoflife.org/opentree/argus/ottol@937560/Podarcis
 
 ## Automated updating of an existing tree
 There is a lot of sequence data that has been generated, but has never been incorporated into any phylogenetic estimates.
-We only store phylogenies and associated metadata in OpenTree, not alignments.
 
-### Updating gene trees
 
-However, if you have access to a single gene alignment, and a tree, you can automate adding homologous data into your tree by searching GenBank.
-
-While genome scale data is increasing rapidly - there are still large quantities of gene-sequence data being uploaded to NCBI GenBank.
-
-<img src="img/seq_data.png" alt="drawing" width="400"/>  
-
-These data are often appropriate for looking at phylogenetic relationships.
-
-Using Physcraper we can use Blast to search for loci that are likely to be homologous to sequences in an existing alignment.
-By using a starting tree and alignment, Physcraper, takes advantage of loci that previous researchers have assessed and deemed appropriate for the phylogentic scope.
-The search is limited to taxa that have been labeled as taxa within a user specified taxon or monophyletic group, or within the ingroup of the starting tree.
-
-These automated tree can provide a quick inference or potential relationships, of problems in the taxonomic assignments of sequences, and flag areas of potential systematic interest.
-
-We will update https://tree.opentreeoflife.org/curator/study/view/ot_350
-Crous P.W., Verkley G., Christensen M., Castaneda-ruiz R.F., & Groenewald J.Z. 2012. How important are conidial appendages?. Persoonia, 28: 126-137.
-
-We'll walk through the configuration file 'aws.config' , and the script 'data_scrape.py' together, and then run it.
-
-```
-  $ python data_scrape.py
-```
-(NB this script has been taking around 30 minutes on the cluster)
-The output is (perhaps overly) verbose. Take a look at it!   
-Don't worry about the 'skipping acc xxxx, incorrect format' warnings. Those are RNA results which Physcraper cannot currently handle.
 
 One it is done running, take a look at the output:
 
@@ -257,23 +220,13 @@ One it is done running, take a look at the output:
 **Q)** How many new taxa?
 
 
-While this analysis is running, I will demonstrate uploading the updated tree file to https://devtree.opentreeoflife.org/curator
-
-**For real analyses, you would want to bootstrap your tree!**  
-But for in lab that is slow, so we will just look at the ML tree.
-This example ML tree actually has low support.
-
 
 ### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy
 
 
-I will do a demonstration of how to upload your inference tree to OpenTree using the curator sites,
+I will do a demonstration of how to upload your inferred tree to OpenTree using the curator sites,
 but if you want to try it out yourself later, there are detailed instructions at:
 https://github.com/OpenTreeOfLife/opentree/wiki/Submitting-phylogenies-to-Open-Tree-of-Life
-
-When experimenting with OpenTree, or doing demos that upload data, **please** use our development site,
-https://devtree.opentreeoflife.org/curator
-There will be a red 'Development' banner in the corner!
 
 To upload your published trees, go to
 https://tree.opentreeoflife.org/curator
