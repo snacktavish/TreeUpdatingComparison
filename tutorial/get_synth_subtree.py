@@ -2,7 +2,7 @@
 """example usage:
 python get_synth_subtree.py --input-file ../../../LizardData/output/main.csv 
 """
-
+import os
 import argparse
 import sys
 from opentree import OT
@@ -29,6 +29,7 @@ ott_ids = set()
 
 assert(args.input_file or args.ott_ids), "Either an ott-ids argument or a file containing ids is required"
 if args.input_file:
+    assert os.path.exists(args.input_file), "{a} not found".format(a=args.input_file)
     with open(args.input_file) as csvfile:
         header = csvfile.readline().split(',')
         column = header.index(args.ott_id_header)
