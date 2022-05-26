@@ -5,24 +5,24 @@ python get_synth_subtree.py --input-file ../../../LizardData/output/main.csv
 import os
 import argparse
 import sys
+import dendropy
 from opentree import OT
 
 parser = argparse.ArgumentParser(description='Get a synthetic subtree for a set of OTT ids')
-parser.add_argument("--ott-ids", help="The list of ott ids")
+parser.add_argument("--ott-ids", nargs='+', help="The list of ott ids")
 parser.add_argument("--input-file", 
-                    help="A file containing the ids. Either a single column or comma delimited")
+                    help="A file containing the ids. Must be comma delimited, and have a header row.")
 parser.add_argument("--ott-id-header",default="OTT TAXON ID",
                     help="Header for column containing the ids")
 parser.add_argument("--label-format",  default="name_and_id",
                     help='The label format for the output tree')
 parser.add_argument("--file-format", default="newick",
                     help='The file format for the output tree')
-parser.add_argument("--output-tree", default="synth_subtree.tre",
-                    help='The file name for the output tree')
-parser.add_argument("--output-info", default="citations.txt",
-                    help='The file name for the citations')
-#parser.print_help()
+parser.add_argument("--output", default="synth_subtree",
+                    help='The file name stub for the outputs')
 
+
+## this reads in the command line arguments
 args = parser.parse_args()
 
 ott_ids = set()
@@ -32,7 +32,11 @@ if args.input_file:
     assert os.path.exists(args.input_file), "{a} not found".format(a=args.input_file)
     with open(args.input_file) as csvfile:
         header = csvfile.readline().split(',')
-        column = header.index(args.ott_id_header)
+        try:
+            column = header.index(args.ott_id_header)
+        except ValueError:
+            sys.stderr.write("Column label '{oth}' not found in hearder row. Exiting.\n".format(oth=args.ott_id_header))
+            sys.exit()
         for line in csvfile:
             row = line.split(',')
             ott_id = row[column]
@@ -43,20 +47,38 @@ else:
         try:
             ott_ids.add(int(ott_id))
         except ValueError:
-            sys.stderr.write("{o} not an integer".format(ott_id))
+            sys.stderr.write("{o} not an integer".format(o=ott_id))
 
 
-output = OT.synth_induced_tree(ott_ids = ott_ids,
+## Call the OpenTree API's on the ids
+## This call returns a dictionary 'response_dict' 
+## with keys including
+## 'newick', the tree in newick format
+## 'supporting studies ', the input phylogeneies that go into thsee relationships.
+
+api_call = OT.synth_induced_tree(ott_ids = ott_ids,
                                label_format = args.label_format)
 
-print("Newick tree saved to {of}".format(of = args.output_tree))
-of = open(args.output_tree, 'w')
-of.write(output.response_dict['newick'])
 
-print("Citation info saved to {cf}".format(cf = args.output_info))
-cf = open(args.output_info, 'w')
+## OpenTree labels internal nodes - which is handy sometimes, 
+## but results in a bunch of 'unififurcations' - single labeled nodes in the middle of long branches.
+## We can use dendropy to supress those extra nodes.
+tree = dendropy.Tree.get(data = api_call.response_dict['newick'], schema='newick',  suppress_internal_node_taxa=True)
+tree.suppress_unifurcations()
 
-for study in output.response_dict['supporting_studies']:
+tree.print_plot()
+
+treefile = "{o}.tre".format(o=args.output)
+tree.write(path=treefile, schema="newick")
+print("Newick tree saved to {of}".format(of = treefile))
+
+
+print("Gathering citations...\n")
+citefile = "{o}_citations.txt".format(o=args.output)
+
+cf = open(citefile, 'w')
+## The citation info in the response is in short form "study_id@tree_id"
+for study in api_call.response_dict['supporting_studies']:
     study_id, tree_id = study.split('@')
     url = 'https://tree.opentreeoflife.org/curator/study/view/{s}/?tab=home&tree={t}'.format(s=study_id,
                                                                                              t=tree_id)
@@ -66,3 +88,4 @@ for study in output.response_dict['supporting_studies']:
     cf.write("\n"+"-----------------------------------------------------------------------------"+"\n")
 
 cf.close()
+print("Citation info saved to {cf}".format(cf = citefile))

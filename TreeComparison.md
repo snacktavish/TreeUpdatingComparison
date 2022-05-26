@@ -14,8 +14,7 @@ In this tutorial we will walk through:
   * Getting existing trees for arbitrary sets of taxa
   * Visualizing conflict between estimates
   * Getting date estimates for nodes
-  * Updating an existing phylogeny with new data from GenBank
-
+  * Updating an existing phylogeny with new data
 
 # The Open Tree of Life
 The Open Tree of Life (https://opentreeoflife.github.io/) is a project that unties phylogenetic inferences and taxonomy to provide a synthetic estimate of species relationships across the entire tree of life.  
@@ -174,35 +173,47 @@ How does the tree we estimated compare to taxonomy and other published literatur
 
 In order to make comparisons about statements that two different trees are making about the same set of taxa, we need to make sure the labels on the tree match.
 
-I have generated a tree file for you 'turtle_iqtree_OTT.tre' from  previous IQTtree excercies in this course, and labelled it with standardized taxon name labels.
+I have generated a tree file for you 'turtle_iqtree_OTT.tre' from an IQTtree excercise from a previous year of this course (http://www.iqtree.org/workshop/molevol2019), and labelled it with standardized taxon name labels.
+
+You can get a comparison tree from OpenTree using the mapped names file, tutorial/data/turtle_tree_names.csv
+Instead of including the name and the ott id on each, tip, we will just download it with the names.
+
+```
+    $ python get_synth_subtree.py --input-file tutorial/data/turtle_tree_names.csv --label-format name --output turtle_synth
+```
+
+### Compare two trees visually
+Open the synthetic tree (turtle_synth.tre) and the example inferred tree (turtle_iqtree_OTT.tre) in figtree.
 
 
-
-### Using Phylo.io to compare two trees.
-A quick way to visualize even fairly large trees is
-http://phylo.io/
-
-If you have trees with matching labels, you can do a quick comparison.
-
-Upload both trees to phylo.io
-
-**Q** Is your tree inference different than the relationships from OpenTree?
+**Q** Are the relationships in 'turtle_iqtree_OTT.tre' different than the relationships from OpenTree?
 
 **Q** How so?
 
+
+### Lets take a closer look!
+You can also pass ott ids into `get_synth_subtree.py` directly. The ids for each taocn are listed in 'data/turtle_tree_names.csv'. 
+
+For example, to see the relationships between python, 
+<img src="img/python.jpg" alt="drawing" width="200"/>  
+
+podarcis, 
+
+<img src="img/podarcis.jpg" alt="drawing" width="200"/>  
+and Anolis carolinenesis
+
+<img src="img/anolis.jpg" alt="drawing" width="200"/>  
+
+
+```
+    $ python get_synth_subtree.py --ott-ids 970153 675102 937560  --output lizards
+```
 
 ## DIY section:
 
 
 - get a list of trees that have all 3 contentious taxa.
 
-
-## Taxon re-naming
-'Podarcis' is missing from the tree downloaded from OpenTree, and is replaces with a node labelled 'mrca'.
-
-Let's look at the synthetic tree to see what is going on!
-
-https://tree.opentreeoflife.org/opentree/argus/ottol@937560/Podarcis
 
 
 
