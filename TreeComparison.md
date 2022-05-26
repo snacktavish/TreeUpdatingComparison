@@ -192,11 +192,14 @@ Open the synthetic tree (turtle_synth.tre) and the example inferred tree (turtle
 
 
 ### Lets take a closer look!
-You can also pass ott ids into `get_synth_subtree.py` directly. The ids for each taocn are listed in 'data/turtle_tree_names.csv'. 
 
-For example, to see the relationships between Python, e.g. *Python regius*
-<img src="img/python.jpg" alt="drawing" width="200"/>, Podarcis, e.g. *Podarcis muralis* <img src="img/podarcis.jpg" alt="drawing" width="200"/>, 
-and *Anolis carolinenesis* <img src="img/anolis.jpg" alt="drawing" width="200"/>  
+You can also pass ott ids into `get_synth_subtree.py` directly. 
+The ids for each taxon from the turtle tree are listed in 'data/turtle_tree_names.csv'. 
+Or you can search names in the search box at tree.opentreeoflife.org, and get the ott ids from there.
+
+For example, to see the relationships between Python (ott:675102), e.g. *Python regius*
+<img src="img/python.jpg" alt="drawing" width="200"/>, Podarcis (ott:937560), e.g. *Podarcis muralis* <img src="img/podarcis.jpg" alt="drawing" width="200"/>, 
+and *Anolis carolinenesis* (ott:705356) <img src="img/anolis.jpg" alt="drawing" width="200"/>  
 
 try running:
 ```
@@ -206,17 +209,19 @@ try running:
 ## Finding published trees that have your taxon or taxa of interest:
 
 
-You can seach the corpus of trees based on 
+You can seach the corpus of trees based on taxon name or taxon id
 ```
-    python find_trees.py "Homarus americanus" --property ot:ottTaxonName
+    $ python find_trees.py "Homarus americanus" --property ot:ottTaxonName
 ```
 
 ```
-    python find_trees.py 937560 --property ot:ottId
+    $ python find_trees.py 937560 --property ot:ottId
 ```
 
 ## Getting date estimates for nodes
-This is beta functionality, that we are in the porcess of adding to the OpenTree services.
+This is beta functionality, that we are in the process of adding to the OpenTree services.
+There is also an R-package to gather date information, Datelife, available online at datelife.opentreeoflife.org
+
 
 
 
@@ -254,6 +259,7 @@ Make a list of taxa you are interested in and save it in a text file.
 (Scientific names only)
 
 Resolve those names to Open Tree identifiers, and use `get_synth_subtree.py` to get a tree for your taxa of interest.
+
 
 
 ### Contribute to OpenTree
