@@ -1,0 +1,17 @@
+ORIGINAL LABEL,OTT TAXON NAME,OTT TAXON ID,TAXONOMIC SOURCES
+Alligator,Alligator,335593,ncbi:8495;worms:886664;gbif:2441367;irmng:1039645
+Anolis carolinensis,Anolis carolinensis,705356,ncbi:28377;gbif:2466939;irmng:10474606;irmng:11099319
+Caiman,Caiman,335589,ncbi:8497;gbif:5220195;irmng:1010136
+Caretta,Caretta,66463,ncbi:8466;worms:137066;gbif:2442177;irmng:1209181;irmng:1324374;irmng:1368735
+Chelonoidis_nigra,Chelonoidis niger,284917,ncbi:66189;gbif:9527499
+Emys_orbicularis,Emys orbicularis,733093,ncbi:82168;gbif:8909809;irmng:11010173
+Gallus,Gallus,153562,ncbi:9030;gbif:2473720;irmng:1278118
+Homo,Homo,770309,ncbi:9605;gbif:2436435;irmng:1000957;irmng:1209753;irmng:1160674;irmng:1035772
+Monodelphis,Monodelphis,122359,ncbi:13615;gbif:7967492;irmng:1325350
+Ornithorhynchus,Ornithorhynchus,962391,ncbi:9257;gbif:2433375;irmng:1107086
+Phrynops,Phrynops,66456,ncbi:8462;gbif:2442114;irmng:1003222;irmng:1287776
+Podarcis,Podarcis,937560,ncbi:42163;gbif:2468993;irmng:1304163
+Protopterus,Protopterus,199350,ncbi:7885;worms:270544;gbif:2441252;irmng:1295830
+Python,Python,675102,ncbi:37579;gbif:2454645;irmng:1031494
+Taeniopygia,Taeniopygia,708325,ncbi:59728;gbif:2493632;irmng:1265687
+Xenopus,Xenopus (genus in Deuterostomia),465090,ncbi:8353;irmng:1382944

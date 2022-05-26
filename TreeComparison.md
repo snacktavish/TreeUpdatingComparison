@@ -194,53 +194,32 @@ Open the synthetic tree (turtle_synth.tre) and the example inferred tree (turtle
 ### Lets take a closer look!
 You can also pass ott ids into `get_synth_subtree.py` directly. The ids for each taocn are listed in 'data/turtle_tree_names.csv'. 
 
-For example, to see the relationships between python, 
-<img src="img/python.jpg" alt="drawing" width="200"/>  
+For example, to see the relationships between Python, e.g. *Python regius*
+<img src="img/python.jpg" alt="drawing" width="200"/>, Podarcis, e.g. *Podarcis muralis* <img src="img/podarcis.jpg" alt="drawing" width="200"/>, 
+and *Anolis carolinenesis* <img src="img/anolis.jpg" alt="drawing" width="200"/>  
 
-podarcis, 
-
-<img src="img/podarcis.jpg" alt="drawing" width="200"/>  
-and Anolis carolinenesis
-
-<img src="img/anolis.jpg" alt="drawing" width="200"/>  
-
-
+try running:
 ```
     $ python get_synth_subtree.py --ott-ids 970153 675102 937560  --output lizards
 ```
 
-## DIY section:
+## Finding published trees that have your taxon or taxa of interest:
 
 
-- get a list of trees that have all 3 contentious taxa.
+You can seach the corpus of trees based on 
+```
+    python find_trees.py "Homarus americanus" --property ot:ottTaxonName
+```
 
+```
+    python find_trees.py 937560 --property ot:ottId
+```
 
-
-
-## Automated updating of an existing tree
-There is a lot of sequence data that has been generated, but has never been incorporated into any phylogenetic estimates.
-
-
-
-One it is done running, take a look at the output:
-
-**Q)** What is the MRCA of the sampled taxa?
-
-**Q)** How many new sequences were found?
-
-**Q)** How many new taxa?
+## Getting date estimates for nodes
+This is beta functionality, that we are in the porcess of adding to the OpenTree services.
 
 
 
-### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy
-
-
-I will do a demonstration of how to upload your inferred tree to OpenTree using the curator sites,
-but if you want to try it out yourself later, there are detailed instructions at:
-https://github.com/OpenTreeOfLife/opentree/wiki/Submitting-phylogenies-to-Open-Tree-of-Life
-
-To upload your published trees, go to
-https://tree.opentreeoflife.org/curator
 
 
 ##  Exercise
@@ -274,7 +253,7 @@ If there is time, try one of the ideas below.
 Make a list of taxa you are interested in and save it in a text file.
 (Scientific names only)
 
-Resolve those names to Open Tree identifiers, and modify `get_tree.py` to get a tree for your taxa of interest.
+Resolve those names to Open Tree identifiers, and use `get_synth_subtree.py` to get a tree for your taxa of interest.
 
 
 ### Contribute to OpenTree
@@ -285,34 +264,6 @@ Do you have, or know of a published tree that would do a better job on those rel
 
 Upload it to the main website  https://tree.opentreeoflife.org/curator, and those phylogenetic inferences will be incorporated into later drafts of the synthetic tree!
 
-
-### Update a different tree from OpenTree
-
-There are some alignments in the alignments folder labelled as 'StudyIdTreeId.aln'.
-Check out what the studies are on
-By going to https://tree.opentreeoflife.org/curator/study/view/{StudyId}
-*Replace StudyId with the id of the study you are interested in*
-
-If any of them interest you, to try to scrape data for those taxa, by modifying data_scrape_alt
-
-Upload your extended tree to https://devtree.opentreeoflife.org/curator
-(requires a github login)
-
-
-### Update your own alignment and  tree file!
-
-If you have:
-  * an alignment (single gene)
-  * a tree
-
-You can automatically update your own tree using physcraper.
-
-Generate a name-mapping file using the Bulk TNRS.
-
-then
-follow the example and instructions in `own_data_scrape.py`
-
-This doesn't work well currently for more that 50 taxa.
 
 ### Unifying geographic and phylogenetic data using R/Rstudio
 There is a great package, [Rotl](https://github.com/ropensci/rotl) that makes it easy to access and work with OpenTree data in R.
