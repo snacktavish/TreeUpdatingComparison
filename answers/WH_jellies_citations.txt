@@ -1,0 +1,115 @@
+https://tree.opentreeoflife.org/curator/study/view/pg_2708
+Kayal, E., Roure, B., Philippe, H., Collins, A. G., & Lavrov, D. V. 2013. Cnidarian phylogenetic relationships as revealed by mitogenomics. BMC Evolutionary Biology 13 (1): 5.
+http://dx.doi.org/10.1186/1471-2148-13-5
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2708/?tab=home&tree=tree6289
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_896
+Catherine McFadden, Leen van Ofwegen, 2013, 'Molecular phylogenetic evidence supports a new family of octocorals and a new genus of Alcyoniidae (Octocorallia, Alcyonacea)', ZooKeys, vol. 346, pp. 59-83
+http://dx.doi.org/10.3897/zookeys.346.6270
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_896/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_508
+dos Reis, Mario, Yuttapong Thawornwattana, Konstantinos Angelis, Maximilian J. Telford, Philip C.J. Donoghue, Ziheng Yang. 2015. Uncertainty in the timing of origin of animals and the limits of precision in molecular timescales. Current Biology
+http://dx.doi.org/10.1016/j.cub.2015.09.066
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_508/?tab=home&tree=tree2
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2710
+Ryan, J. F., K. Pang, C. E. Schnitzler, A.-D. Nguyen, R. T. Moreland, D. K. Simmons, B. J. Koch, W. R. Francis, P. Havlak, S. A. Smith, N. H. Putnam, S. H. D. Haddock, C. W. Dunn, T. G. Wolfsberg, J. C. Mullikin, M. Q. Martindale, A. D. Baxevanis. 2013. The genome of the ctenophore Mnemiopsis leidyi and its implications for cell type evolution. Science 342 (6164): 1242592-1242592.
+http://dx.doi.org/10.1126/science.1242592
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2710/?tab=home&tree=tree6291
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_519
+Chang E.S., Neuhof M., Rubinstein N., Diamant A., Philippe H., Huchon D., & Cartwright P. 2015. Genomic insights into the evolutionary origin of Myxozoa within Cnidaria. Proceedings of the National Academy of Sciences of the United States of America, .
+http://dx.doi.org/10.1073/pnas.1511468112
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_519/?tab=home&tree=tree2
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_729
+Larson P., & Daly M. 2015. Phylogenetic analysis reveals an evolutionary transition from internal to external brooding in Epiactis Verrill (Cnidaria: Anthozoa: Actiniaria) and rejects the validity of the genus Cnidopus Carlgren. Molecular Phylogenetics and Evolution, .
+http://dx.doi.org/10.1016/j.ympev.2015.10.008
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_729/?tab=home&tree=Tr90969
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_930
+Estefanía Rodríguez, Marcos S. Barbeitos, Mercer R. Brugler, Louise M. Crowley, Alejandro Grajales, Luciana Gusmão, Verena Häussermann, Abigail Reft, Marymegan Daly, 2014, 'Hidden among Sea Anemones: The First Comprehensive Phylogenetic Reconstruction of the Order Actiniaria (Cnidaria, Anthozoa, Hexacorallia) Reveals a Novel Group of Hexacorals', PLoS ONE, vol. 9, no. 5, p. e96998
+http://dx.doi.org/10.1371/journal.pone.0096998
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_930/?tab=home&tree=tree3
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_1786
+Cartwright, P., Evans N., Dunn C., Marques A., Miglietta M., & Collins A. 2008. Phylogenetics of Hydroidolina (Cnidaria, Hydrozoa). Journal of the Marine Biological Association of the United Kingdom 88 (8): 1663-1672.
+http://dx.doi.org/10.1017/S0025315408002257
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_1786/?tab=home&tree=tree6257
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_954
+SOFIA V. PYATAEVA, RUSSELL R. HOPCROFT, DHUGAL J. LINDSAY, ALLEN G. COLLINS, 2016, 'DNA barcodes unite two problematic taxa: the meiobenthic Boreohydra simplex is a life-cycle stage of Plotocnide borealis (Hydrozoa: Aplanulata)', Zootaxa, vol. 4150, no. 1, p. 85
+http://dx.doi.org/10.11646/zootaxa.4150.1.5
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_954/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_1761
+Huang, D., & Roy K. 2013. Anthropogenic extinction threats and future loss of evolutionary history in reef corals. Ecology and Evolution, 3 (5): 1184–1193.
+http://dx.doi.org/10.1002/ece3.527
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_1761/?tab=home&tree=tree6151
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_1785
+Lucas Leclere, Peter Schuchert, Corinne Cruaud , Arnaud Couloux, Michael Manuel, 2009. Molecular phylogenetics of Thecata (Hydrozoa, Cnidaria) reveals long-term maintenance of life history traits despite high frequency of recent character changes. Systematic Biology 58 (5): 509-526.
+http://dx.doi.org/10.1093/sysbio/syp044
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_1785/?tab=home&tree=tree6248
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_714
+Maximiliano M. Maronna, Thaís P. Miranda, Álvaro L. Peña Cantero, Marcos S. Barbeitos, Antonio C. Marques, 2016, 'Towards a phylogenetic classification of Leptothecata (Cnidaria, Hydrozoa)', Scientific Reports, vol. 6, p. 18075
+http://dx.doi.org/10.1038/srep18075
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_714/?tab=home&tree=tree2
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_932
+K. M. Bayha, M. N. Dawson, A. G. Collins, M. S. Barbeitos, S. H. D. Haddock, 2010, 'Evolutionary Relationships Among Scyphozoan Jellyfish Families Based on Complete Taxon Sampling and Phylogenetic Analyses of 18S and 28S Ribosomal DNA', Integrative and Comparative Biology, vol. 50, no. 3, pp. 436-455
+http://dx.doi.org/10.1093/icb/icq074
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_932/?tab=home&tree=tree6
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_1788
+Dunn, C., Pugh P., & Haddock S. 2005. Molecular phylogenetics of the Siphonophora (Cnidaria), with implications for the evolution of functional specialization. Systematic Biology 54 (6): 916-935.
+http://dx.doi.org/10.1080/10635150500354837
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_1788/?tab=home&tree=tree6534
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_895
+Felipe Zapata, Freya E. Goetz, Stephen A. Smith, Mark Howison, Stefan Siebert, Samuel H. Church, Steven M. Sanders, Cheryl Lewis Ames, Catherine S. McFadden, Scott C. France, Marymegan Daly, Allen G. Collins, Steven H. D. Haddock, Casey W. Dunn, Paulyn Cartwright, 2015, 'Phylogenomic Analyses Support Traditional Relationships within Cnidaria', PLOS ONE, vol. 10, no. 10, p. e0139068
+http://dx.doi.org/10.1371/journal.pone.0139068
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_895/?tab=home&tree=tree2
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_985
+Sérgio N. Stampar, Maximiliano M. Maronna, Marcelo V. Kitahara, James D. Reimer, André C. Morandini, 2014, 'Fast-Evolving Mitochondrial DNA in Ceriantharia: A Reflection of Hexacorallia Paraphyly?', PLoS ONE, vol. 9, no. 1, p. e86612
+http://dx.doi.org/10.1371/journal.pone.0086612
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_985/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_944
+Mei Fang Lin, Wen Hwa Chou, Marcelo V. Kitahara, Chao Lun Allen Chen, David John Miller, Sylvain Forêt, 2016, 'Corallimorpharians are not “naked corals”: insights into relationships between Scleractinia and Corallimorpharia from phylogenomic analyses', PeerJ, vol. 4, p. e2463
+http://dx.doi.org/10.7717/peerj.2463
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_944/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_898
+Amanda F. Cunha, Allen G. Collins, Antonio C. Marques, 2017, 'Phylogenetic relationships of Proboscoida Broch, 1910 (Cnidaria, Hydrozoa): Are traditional morphological diagnostic characters relevant for the delimitation of lineages at the species, genus, and family levels?', Molecular Phylogenetics and Evolution, vol. 106, pp. 118-135
+http://dx.doi.org/10.1016/j.ympev.2016.09.012
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_898/?tab=home&tree=tree2
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_898
+Amanda F. Cunha, Allen G. Collins, Antonio C. Marques, 2017, 'Phylogenetic relationships of Proboscoida Broch, 1910 (Cnidaria, Hydrozoa): Are traditional morphological diagnostic characters relevant for the delimitation of lineages at the species, genus, and family levels?', Molecular Phylogenetics and Evolution, vol. 106, pp. 118-135
+http://dx.doi.org/10.1016/j.ympev.2016.09.012
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_898/?tab=home&tree=tree3
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_929
+Allen G. Collins, Bastian Bentlage, Alberto Lindner, Dhugal Lindsay, Steven H.D. Haddock, Gerhard Jarms, Jon L. Norenburg, Thomas Jankowski, Paulyn Cartwright, 2008, 'Phylogenetics of Trachylina (Cnidaria: Hydrozoa) with new insights on the evolution of some problematical taxa', Journal of the Marine Biological Association of the United Kingdom, vol. 88, no. 08, p. 1673
+http://dx.doi.org/10.1017/s0025315408001732
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_929/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_942
+Miranda L.S., Hirano Y.M., Mills C.E., Falconer A., Fenwick D., Marques A.C., & Collins A. 2016. Systematics of stalked jellyfishes (Cnidaria: Staurozoa). PeerJ, .
+http://dx.doi.org/10.7717/peerj.1951
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_942/?tab=home&tree=Tr94692
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_1951
+Bentlage B. 2010. Evolution of box jellyfish (Cnidaria: Cubozoa), a group of highly toxic invertebrates. Proceedings of the Royal Society B: Biological Sciences, 277(1680): 493-501.
+http://dx.doi.org/10.1098/rspb.2009.1707
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_1951/?tab=home&tree=tree3975
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_898
+Amanda F. Cunha, Allen G. Collins, Antonio C. Marques, 2017, 'Phylogenetic relationships of Proboscoida Broch, 1910 (Cnidaria, Hydrozoa): Are traditional morphological diagnostic characters relevant for the delimitation of lineages at the species, genus, and family levels?', Molecular Phylogenetics and Evolution, vol. 106, pp. 118-135
+http://dx.doi.org/10.1016/j.ympev.2016.09.012
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_898/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
