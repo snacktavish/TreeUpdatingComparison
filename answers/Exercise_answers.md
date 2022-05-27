@@ -1,6 +1,14 @@
-**Q** *How many published trees were used in this synthetic tree estimate?*  
+**Q** *Are any of the genera non-monophyletic? What one(s)?*
+Laomedea, Obelia
 
-13 tree from 12 published papers
+
+**Q** *Look at this genus/genera in the tree viewer. What studies break the monophyly of each taxon?*
+
+Maronna 2016, Cuhna 2017, Leclere 2009
+
+**Q** *Is there conflict among the input sources? Does the alternate resolution demonstrate reciprocal monophyly?*
+
+There is conflict across the different Cuhna trees, but still not reciprocal monophyly.
 
 **Q** *Are the relationships in 'turtle_iqtree_OTT.tre' different than the relationships from OpenTree?*
 

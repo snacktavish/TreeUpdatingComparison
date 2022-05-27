@@ -98,27 +98,34 @@ Get the tutorial folder using
     cd  Mole2022/tutorial
 ```
 
-The names of the taxa you included used in your tree estimation in Minh's lab are in the file
-'species_names.txt'
 
 
 One of the key challenges of comparing trees across studies is minor differences in names and naming.
 
-In the tutorial/data folder is a text file A solution to this, is mapping taxon names to unique identifiers using the Open Tree Taxonomic Name Resolution Service (TNRS). There are a few options to use this service including via the API, or the browser based bulk name mapping. 
+A solution to this, is mapping taxon names to unique identifiers using the Open Tree Taxonomic Name Resolution Service (TNRS). There are a few options to use this service including via the API, or the browser based bulk name mapping. 
 https://tree.opentreeoflife.org/curator/tnrs/
 
-The names of the taxa you will search for this tutorial were copied from https://en.wikipedia.org/wiki/List_of_birds_of_Massachusetts and are saved as a text file in "tutorial/data/waterfowl_of_ma.txt" (https://github.com/snacktavish/Mole2022/blob/master/tutorial/data/waterfowl_of_ma.txt).
+We will look up a tree of the hydrozoan jellyfish species found right around Woods Hole!
+
+![](img/GBIF_screenshot.png)
+
+The names of the taxa you will search for this tutorial were
+dowloaded from GBIF (GBIF.org (27 May 2022) GBIF Occurrence Download https://doi.org/10.15468/dl.gcmn6n).
+
+
+
+
 
 *Try this*
-  * Click on "add names", and upload the names file. (tutorial/birds_of_georgia.txt)  
+  * Click on "add names", and upload the names file. (tutorial/WH_hydrozoan_names.txt)  
   (you can dowload it directly to you laptop from )
   * In the mapping options section,
-    - select 'Birds' to narrow down the possibilities and speed up mapping
+    - select 'Cnidarians' to narrow down the possibilities and speed up mapping
   * Click "Map selected names"
 
 Exact matches will show up in green, and can be accepted by clicking "accept exact matches".
 
-A few taxa still show several suggested names. Click through to the taxonomy, and select the one that you think is correct based on the phylogenetic context. (The tree is in the tutorial file as well if you want to double check).
+A few taxa may still show suggested names. Click through to the taxonomy, and look at the synonyms.
 
 Once you have accepted names for each of the taxa, click "save nameset". 
 
@@ -130,7 +137,7 @@ Take a look at the human readable version (output/main.csv).
 
 main.json contains the the same data in a more computer readable format.
 
-Transfer the `output/main.csv` file to the tutorial folder on the cluster, and rename it to `ma_waterfowl.csv`
+**Transfer the `output/main.csv` file to the tutorial folder on the cluster, and rename it to `WH_jellies.csv`**
 
 ### Using API's
 You can use the OpenTree API's to get the tree for a subset of taxa directly from the command line
@@ -158,17 +165,29 @@ or by cloning and installing from https://github.com/OpenTreeOfLife/python-opent
 ### Getting a subtree
 Take a look at the script in the tutorials folder 'get_synth_subtree.py'.
 
-```
-    $ python get_synth_subtree.py --input-file ma_waterfowl.csv --output ma_wf_synth
+This uses the taxon ids in the file `WH_jellies.csv` you transferred from your computer to get a synthetic tree. 
+If you had trouble with that step you can use `backup_output/WH_jellies.csv` as the input file instead.
+
+The argument 'output' sets the first part of the output filename.
 
 ```
+    $ python get_synth_subtree.py --input-file WH_jellies.csv --output WH_jellyfish_synth
+```
 
-This script will write two files out to your current working directory - the tree in newick format, 'ma_wf_synth.tre' and 'ma_wf_synth_citations.txt' the citations of published trees that went into generating that tree, and support the relationships in it.
+This script will write two files out to your current working directory - 
+the tree in newick format, 'ma_wf_synth.tre' and 'ma_wf_synth_citations.txt' the citations of published trees that went into generating that tree, and support the relationships in it.
 
 Move both those files to your computer.
-Open the synthetic subtree in figtree.
+Open the synthetic subtree in figtree, and the citations in a text viewer.
 
-**Q** *How many published trees were used in this synthetic tree estimate?*
+**Q** *Are any of the genera non-monophyletic? What one(s)?*
+
+
+**Q** *Look at this genus/genera in the tree viewer. What studies break the monophyly of each taxon?*
+
+
+**Q** *Is there conflict among the input sources? Does the alternate resolution demonstrate reciprocal monophyly?*
+
 
 ## Comparing trees
 Imagine that we want to get some more context for our inferences that we made when estimating tree.
