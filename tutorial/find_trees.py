@@ -17,12 +17,12 @@ parser.add_argument("--exact", action="store_true", help='disables fuzzy matchin
 
 args = parser.parse_args()
 
-output = OT.find_trees(args.value, 
+api_call = OT.find_trees(args.value, 
                        search_property=args.property,
                        exact=args.exact)
 
 
-for study in output.response_dict['matched_studies']:
+for study in api_call.response_dict['matched_studies']:
    for tree in study['matched_trees']:
       study_id = tree['ot:studyId']
       tree_id = tree['ot:treeId']

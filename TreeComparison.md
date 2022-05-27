@@ -168,7 +168,7 @@ This script will write two files out to your current working directory - the tre
 Move both those files to your computer.
 Open the synthetic subtree in figtree.
 
-
+**Q** *How many published trees were used in this synthetic tree estimate?*
 
 ## Comparing trees
 Imagine that we want to get some more context for our inferences that we made when estimating tree.
@@ -183,16 +183,16 @@ You can get a comparison tree from OpenTree using the mapped names file, tutoria
 Instead of including the name and the ott id on each, tip, we will just download it with the names.
 
 ```
-    $ python get_synth_subtree.py --input-file tutorial/data/turtle_tree_names.csv --label-format name --output turtle_synth
+    $ python get_synth_subtree.py --input-file data/turtle_tree_names.csv --label-format name --output turtle_synth
 ```
 
 ### Compare two trees visually
 Open the synthetic tree (turtle_synth.tre) and the example inferred tree (turtle_iqtree_OTT.tre) in figtree.
 
 
-**Q1** Are the relationships in 'turtle_iqtree_OTT.tre' different than the relationships from OpenTree?
+**Q** *Are the relationships in 'turtle_iqtree_OTT.tre' different than the relationships from OpenTree?*
 
-**Q2** How so?
+**Q** *How so?*
 
 
 ### Lets take a closer look!
@@ -245,7 +245,12 @@ The python script get_dates.py translates the short form citations into their fu
 It outputs the tree if you input a list of ids, and a date file with age estimates and citations for nodes.
 
 ```
-   $ python  get_dates.py --ott-ids 937560  --output lizard
+   $ python  get_dates.py --ott-ids 970153 675102 937560 --output lizard_ages
+```
+
+
+```
+   $ python  get_dates.py --ott-ids 675102 --output python_ages
 ```
 
 There is also an R-package to gather date information and estimate dated trees, Datelife, available online at datelife.opentreeoflife.org.
@@ -262,18 +267,19 @@ There are genomic resources available in the genera Cassiopea, Aurelia and Rhopi
 *Which genome should they use to assemble their transcriptome?*
 
 
-**Q3)** What are the relationships among these taxa? Which taxon is most closely related to mastigias?
+**Q** *What are the relationships among these taxa?*
 
-**Q4)** What studies support this inference?
+**Q** *Which taxon is most closely related to mastigias?*
+
+**Q** *What studies support this inference?*
 
 One of the genera got renamed! Why?
 Look in the synthetic tree, to assess what is happened.  
 
-**Q5)**  Which genus?
+**Q**  *Which genus is not in the output tree? Why not?*
 
-**Q6)**  What phylogenetically supported three-taxon relationship breaks up this genus?
+**Q**  *What phylogenetically supported three-taxon relationship breaks up this genus?*
 
-**Q7)**  Is there conflict between the phylogenetic studies that traverse this part of the tree?
 
 
 ## Choose your own adventure!
