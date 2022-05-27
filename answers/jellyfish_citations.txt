@@ -1,0 +1,10 @@
+https://tree.opentreeoflife.org/curator/study/view/pg_2708
+Kayal, E., Roure, B., Philippe, H., Collins, A. G., & Lavrov, D. V. 2013. Cnidarian phylogenetic relationships as revealed by mitogenomics. BMC Evolutionary Biology 13 (1): 5.
+http://dx.doi.org/10.1186/1471-2148-13-5
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2708/?tab=home&tree=tree6289
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_932
+K. M. Bayha, M. N. Dawson, A. G. Collins, M. S. Barbeitos, S. H. D. Haddock, 2010, 'Evolutionary Relationships Among Scyphozoan Jellyfish Families Based on Complete Taxon Sampling and Phylogenetic Analyses of 18S and 28S Ribosomal DNA', Integrative and Comparative Biology, vol. 50, no. 3, pp. 436-455
+http://dx.doi.org/10.1093/icb/icq074
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_932/?tab=home&tree=tree6
+-----------------------------------------------------------------------------

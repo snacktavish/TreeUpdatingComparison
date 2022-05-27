@@ -1,0 +1,40 @@
+https://tree.opentreeoflife.org/curator/study/view/ot_1236
+Steven Poe, Adrián Nieto-montes de oca, Omar Torres-carvajal, Kevin De Queiroz, Julián A. Velasco, Brad Truett, Levi N. Gray, Mason J. Ryan, Gunther Köhler, Fernando Ayala-varela, Ian Latella, 2017, 'A Phylogenetic, Biogeographic, and Taxonomic study of all Extant Species of Anolis (Squamata; Iguanidae)', Systematic Biology, vol. 66, no. 5, pp. 663-697
+http://dx.doi.org/10.1093/sysbio/syx029
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_1236/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_1042
+Sara Ruane, Christopher C. Austin, 2017, 'Phylogenomics using formalin-fixed and 100+ year old intractable natural history specimens', Molecular Ecology Resources
+http://dx.doi.org/10.1111/1755-0998.12655
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_1042/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_505
+Tod W. Reeder, Ted M. Townsend, Daniel G. Mulcahy, Brice P. Noonan, Perry L. Wood, Jack W. Sites, John J. Wiens, 2015, 'Integrated Analyses Resolve Conflicts over Squamate Reptile Phylogeny and Reveal Unexpected Placements for Fossil Taxa', PLOS ONE, vol. 10, no. 3, p. e0118199
+http://dx.doi.org/10.1371/journal.pone.0118199
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_505/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_307
+Wright, April M., Kathleen M. Lyons, Matthew C. Brandley, David M. Hillis. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. Journal of Experimental Zoology Part B: Molecular and Developmental Evolution 324 (6): 504-516
+http://dx.doi.org/10.1002/jez.b.22642
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_307/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_1041
+Yuchi Zheng, John J. Wiens, 2016, 'Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles (lizards and snakes) based on 52 genes and 4162 species', Molecular Phylogenetics and Evolution, vol. 94, pp. 537-547
+http://dx.doi.org/10.1016/j.ympev.2015.10.009
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_1041/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2460
+Pyron, Robert Alexander, Frank T Burbrink, John J Wiens. 2013. A phylogeny and revised classification of Squamata, including 4161 species of lizards and snakes. BMC Evolutionary Biology 13 (1): 93.
+http://dx.doi.org/10.1186/1471-2148-13-93
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2460/?tab=home&tree=tree5285
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2711
+Reynolds, R. Graham, Matthew L. Niemiller, Liam J. Revell. 2014. Toward a Tree-of-Life for the boas and pythons: Multilocus species-level phylogeny with unprecedented taxon sampling. Molecular Phylogenetics and Evolution 71: 201-213.
+http://dx.doi.org/10.1016/j.ympev.2013.11.011
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2711/?tab=home&tree=tree6295
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2881
+Mahler, D. L., T. Ingram, L. J. Revell, J. B. Losos. 2013. Exceptional Convergence on the Macroevolutionary Landscape in Island Lizard Radiations. Science 341 (6143): 292-295.
+http://dx.doi.org/10.1126/science.1232392
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2881/?tab=home&tree=tree6680
+-----------------------------------------------------------------------------

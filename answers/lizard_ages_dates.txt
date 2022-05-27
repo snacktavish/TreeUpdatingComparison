@@ -1,0 +1,110 @@
+Ages for node Episquamata ott4945816
+
+Age: 206.62653 Myr
+Study: ot_2008@tree5 
+https://tree.opentreeoflife.org/curator/study/view/ot_2008?tab=trees&tree=tree5
+Roquet, C., Lavergne, S., & Thuiller, W. (2014). One Tree to Link Them All: A Phylogenetic Dataset for the European Tetrapoda. PLoS Currents. doi:10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+http://dx.doi.org/10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+---
+
+Age: 188.295665 Myr
+Study: ot_1041@tree1 
+https://tree.opentreeoflife.org/curator/study/view/ot_1041?tab=trees&tree=tree1
+Yuchi Zheng, John J. Wiens, 2016, 'Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles (lizards and snakes) based on 52 genes and 4162 species', Molecular Phylogenetics and Evolution, vol. 94, pp. 537-547
+http://dx.doi.org/10.1016/j.ympev.2015.10.009
+
+---
+
+Age: 163.041626 Myr
+Study: ot_307@tree2 
+https://tree.opentreeoflife.org/curator/study/view/ot_307?tab=trees&tree=tree2
+Wright, April M., Kathleen M. Lyons, Matthew C. Brandley, David M. Hillis. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. Journal of Experimental Zoology Part B: Molecular and Developmental Evolution 324 (6): 504-516
+http://dx.doi.org/10.1002/jez.b.22642
+
+---
+
+Age: 206.62653 Myr
+Study: ot_2008@tree3 
+https://tree.opentreeoflife.org/curator/study/view/ot_2008?tab=trees&tree=tree3
+Roquet, C., Lavergne, S., & Thuiller, W. (2014). One Tree to Link Them All: A Phylogenetic Dataset for the European Tetrapoda. PLoS Currents. doi:10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+http://dx.doi.org/10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+---
+
+Age: 162.21248000000003 Myr
+Study: ot_1177@tree1 
+https://tree.opentreeoflife.org/curator/study/view/ot_1177?tab=trees&tree=tree1
+Pyron, R. Alexander, Frank T. Burbrink. 2013. Early origin of viviparity and multiple reversions to oviparity in squamate reptiles. Ecology Letters 17 (1): 13-21
+http://dx.doi.org/10.1111/ele.12168
+
+---
+
+Age: 162.212479 Myr
+Study: ot_2025@tree1 
+https://tree.opentreeoflife.org/curator/study/view/ot_2025?tab=trees&tree=tree1
+Uyeda, J. C., Pennell, M. W., Miller, E. T., Maia, R., & McClain, C. R. (2017). The Evolution of Energetic Scaling across the Vertebrate Tree of Life. The American Naturalist, 190(2), 185–199. doi:10.1086/692326
+
+http://dx.doi.org/10.1086/692326
+
+---
+
+
+*******************************************************************************
+Ages for node mrcaott1662ott2417
+
+Age: 198.916644 Myr
+Study: ot_2008@tree5 
+https://tree.opentreeoflife.org/curator/study/view/ot_2008?tab=trees&tree=tree5
+Roquet, C., Lavergne, S., & Thuiller, W. (2014). One Tree to Link Them All: A Phylogenetic Dataset for the European Tetrapoda. PLoS Currents. doi:10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+http://dx.doi.org/10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+---
+
+Age: 184.560731 Myr
+Study: ot_1041@tree1 
+https://tree.opentreeoflife.org/curator/study/view/ot_1041?tab=trees&tree=tree1
+Yuchi Zheng, John J. Wiens, 2016, 'Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles (lizards and snakes) based on 52 genes and 4162 species', Molecular Phylogenetics and Evolution, vol. 94, pp. 537-547
+http://dx.doi.org/10.1016/j.ympev.2015.10.009
+
+---
+
+Age: 161.035411 Myr
+Study: ot_307@tree2 
+https://tree.opentreeoflife.org/curator/study/view/ot_307?tab=trees&tree=tree2
+Wright, April M., Kathleen M. Lyons, Matthew C. Brandley, David M. Hillis. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. Journal of Experimental Zoology Part B: Molecular and Developmental Evolution 324 (6): 504-516
+http://dx.doi.org/10.1002/jez.b.22642
+
+---
+
+Age: 198.916643 Myr
+Study: ot_2008@tree3 
+https://tree.opentreeoflife.org/curator/study/view/ot_2008?tab=trees&tree=tree3
+Roquet, C., Lavergne, S., & Thuiller, W. (2014). One Tree to Link Them All: A Phylogenetic Dataset for the European Tetrapoda. PLoS Currents. doi:10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+http://dx.doi.org/10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+---
+
+Age: 160.573443 Myr
+Study: ot_1177@tree1 
+https://tree.opentreeoflife.org/curator/study/view/ot_1177?tab=trees&tree=tree1
+Pyron, R. Alexander, Frank T. Burbrink. 2013. Early origin of viviparity and multiple reversions to oviparity in squamate reptiles. Ecology Letters 17 (1): 13-21
+http://dx.doi.org/10.1111/ele.12168
+
+---
+
+Age: 160.573444 Myr
+Study: ot_2025@tree1 
+https://tree.opentreeoflife.org/curator/study/view/ot_2025?tab=trees&tree=tree1
+Uyeda, J. C., Pennell, M. W., Miller, E. T., Maia, R., & McClain, C. R. (2017). The Evolution of Energetic Scaling across the Vertebrate Tree of Life. The American Naturalist, 190(2), 185–199. doi:10.1086/692326
+
+http://dx.doi.org/10.1086/692326
+
+---
+
+
+*******************************************************************************

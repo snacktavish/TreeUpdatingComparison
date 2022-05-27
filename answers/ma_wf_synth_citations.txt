@@ -1,0 +1,62 @@
+https://tree.opentreeoflife.org/curator/study/view/ot_521
+Burleigh, J. Gordon, Rebecca T. Kimball, Edward L. Braun. 2015. Building the avian tree of life using a large-scale, sparse supermatrix. Molecular Phylogenetics and Evolution 84: 53-63
+http://dx.doi.org/10.1016/j.ympev.2014.12.003
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_521/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_809
+Jetz, W., G. H. Thomas, J. B. Joy, K. Hartmann, A. O. Mooers. 2012. The global diversity of birds in space and time. Nature 491 (7424): 444-448
+http://dx.doi.org/10.1038/nature11631
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_809/?tab=home&tree=tree2
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_531
+Claramunt, Santiago, Joel Cracraft. 2015. A new time tree reveals Earth historys imprint on the evolution of modern birds. Science Advances 1 (11): e1501005-e1501005
+http://dx.doi.org/10.1126/sciadv.1501005
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_531/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_2018
+Kimball, R. T., Oliveros, C. H., Wang, N., White, N. D., Barker, F. K., Field, D. J., … Braun, E. L. (2019). A Phylogenomic Supertree of Birds. Diversity, 11(7), 109. doi:10.3390/d11070109
+
+http://dx.doi.org/10.3390/d11070109
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_2018/?tab=home&tree=tree8
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_2018
+Kimball, R. T., Oliveros, C. H., Wang, N., White, N. D., Barker, F. K., Field, D. J., … Braun, E. L. (2019). A Phylogenomic Supertree of Birds. Diversity, 11(7), 109. doi:10.3390/d11070109
+
+http://dx.doi.org/10.3390/d11070109
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_2018/?tab=home&tree=tree9
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_420
+Hackett, S. J., R. T. Kimball, S. Reddy, R. C. K. Bowie, E. L. Braun, M. J. Braun, J. L. Chojnowski, W. A. Cox, K.-L. Han, J. Harshman, C. J. Huddleston, B. D. Marks, K. J. Miglia, W. S. Moore, F. H. Sheldon, D. W. Steadman, C. C. Witt, T. Yuri. 2008. A Phylogenomic Study of Birds Reveals Their Evolutionary History. Science 320 (5884): 1763-1768.
+http://dx.doi.org/10.1126/science.1157704
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_420/?tab=home&tree=tree522
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_500
+Prum, Richard O., Jacob S. Berv, Alex Dornburg, Daniel J. Field, Jeffrey P. Townsend, Emily Moriarty Lemmon, Alan R. Lemmon. 2015. A comprehensive phylogeny of birds (Aves) using targeted next-generation DNA sequencing. Nature 526, (7574): 569-573
+http://dx.doi.org/10.1038/nature15697
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_500/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_1345
+Worthy T., Mitri M., Handley W.D., Lee M.S., Anderson A., & Sand C. 2016. Osteology Supports a Stem-Galliform Affinity for the Giant Extinct Flightless Bird Sylviornis neocaledoniae (Sylviornithidae, Galloanseres). PLoS ONE, 11(3): e0150871.
+http://dx.doi.org/10.1371/journal.pone.0150871
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_1345/?tab=home&tree=Tr109614
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2860
+Fulton, T. L., B. Letts, B. Shapiro. 2012. Multiple losses of flight and recent speciation in steamer ducks. Proceedings of the Royal Society B: Biological Sciences 279 (1737): 2339-2346.
+http://dx.doi.org/10.1098/rspb.2011.2599
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2860/?tab=home&tree=tree6646
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/pg_2866
+Gonzalez, J., H. Düttmann, M. Wink. 2009. Phylogenetic relationships based on two mitochondrial genes and hybridization patterns in Anatidae. Journal of Zoology 279 (3): 310-318.
+http://dx.doi.org/10.1111/j.1469-7998.2009.00622.x
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/pg_2866/?tab=home&tree=tree6656
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_1022
+Donne-Goussé, Carole, Vincent Laudet, Catherine Hänni. 2002. A molecular phylogeny of anseriformes based on mitochondrial DNA analysis. Molecular Phylogenetics and Evolution 23 (3): 339-356
+http://dx.doi.org/10.1016/s1055-7903(02)00019-2
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_1022/?tab=home&tree=tree1
+-----------------------------------------------------------------------------
+https://tree.opentreeoflife.org/curator/study/view/ot_731
+Ottenburghs, Jente, Hendrik-Jan Megens, Robert H.S. Kraus, Ole Madsen, Pim van Hooft, Sipke E. van Wieren, Richard P.M.A. Crooijmans, Ronald C. Ydenberg, Martien A.M. Groenen, Herbert H.T. Prins. 2016. A Tree of Geese: A Phylogenomic Perspective on the Evolutionary History of True Geese. Molecular Phylogenetics and Evolution 101: 303-313.
+http://dx.doi.org/10.1016/j.ympev.2016.05.021
+Link to tree: https://tree.opentreeoflife.org/curator/study/view/ot_731/?tab=home&tree=tree2
+-----------------------------------------------------------------------------
