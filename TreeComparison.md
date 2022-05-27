@@ -114,8 +114,6 @@ dowloaded from GBIF (GBIF.org (27 May 2022) GBIF Occurrence Download https://doi
 
 
 
-
-
 *Try this*
   * Click on "add names", and upload the names file. (tutorial/WH_hydrozoan_names.txt)  
   (you can dowload it directly to you laptop from )
@@ -175,7 +173,7 @@ The argument 'output' sets the first part of the output filename.
 ```
 
 This script will write two files out to your current working directory - 
-the tree in newick format, 'ma_wf_synth.tre' and 'ma_wf_synth_citations.txt' the citations of published trees that went into generating that tree, and support the relationships in it.
+the tree in newick format, 'WH_jellyfish_synth.tre' and 'WH_jellyfish_synth_citations.txt' the citations of published trees that went into generating that tree, and support the relationships in it.
 
 Move both those files to your computer.
 Open the synthetic subtree in figtree, and the citations in a text viewer.
@@ -186,7 +184,7 @@ Open the synthetic subtree in figtree, and the citations in a text viewer.
 **Q** *Look at this genus/genera in the tree viewer. What studies break the monophyly of each taxon?*
 
 
-**Q** *Is there conflict among the input sources? Does the alternate resolution demonstrate reciprocal monophyly?*
+**Q** *Is there conflict among the input sources? Does the alternate resolution demonstrate reciprocal monophyly of these genera?*
 
 
 ## Comparing trees
@@ -196,10 +194,10 @@ How does the tree we estimated compare to taxonomy and other published literatur
 In order to make comparisons about statements that two different trees are making about the same set of taxa, we need to make sure the labels on the tree match.
 
 I have generated a tree file for you 'turtle_iqtree_OTT.tre' from an IQTtree excercise from a previous year of this course (http://www.iqtree.org/workshop/molevol2019), and labelled it with standardized taxon name labels. 
-This was an example data set specifically chosen to be a challenging inference problem.
+This was an example data set specifically chosen to be a challenging inference problem, so there are some questions about if the inferred relationships are correct.
 
 You can get a comparison tree from OpenTree using the mapped names file, tutorial/data/turtle_tree_names.csv
-Instead of including the name and the ott id on each, tip, we will just download it with the names.
+Instead of including the name and the ott id on each, tip, we will can download it with the names.
 
 ```
     $ python get_synth_subtree.py --input-file data/turtle_tree_names.csv --label-format name --output turtle_synth
@@ -231,6 +229,7 @@ try running:
 
 The output tree will be written to lizards.tre.
 
+**Q** *Is there anything surprisng about these relationships? (The answer probably depends on your pre-existing herp phylogeny knowledge :P)*
 
 ## Finding published trees that have your taxon or taxa of interest:
 
@@ -266,7 +265,6 @@ It outputs the tree if you input a list of ids, and a date file with age estimat
 ```
    $ python  get_dates.py --ott-ids 970153 675102 937560 --output lizard_ages
 ```
-
 
 ```
    $ python  get_dates.py --ott-ids 675102 --output python_ages

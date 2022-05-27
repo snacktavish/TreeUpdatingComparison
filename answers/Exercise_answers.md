@@ -24,6 +24,9 @@ Iqtree: ((Anolis carolinensis, Podarcis), Python)
 OpenTree: (((Alligator, Caiman),(Gallus, Taeniopygius)),(((Emys, Chelonius), Caretta), Phyrnops));
 Iqtree: (((Alligator, Caiman),(((Emys, Chelonius), Caretta), Phyrnops)),(Gallus, Taeniopygius));
 
+**Q** *Is there anything surprisng about these relationships? (The answer probably depends on your pre-existing herp phylogeny knowledge :P)*
+
+'lizards' are not a monophyletic group!
 
 **Q** *What are the relationships among these taxa?*  
 
