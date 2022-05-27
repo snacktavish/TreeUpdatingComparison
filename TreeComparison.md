@@ -266,11 +266,21 @@ It outputs the tree if you input a list of ids, and a date file with age estimat
    $ python  get_dates.py --ott-ids 970153 675102 937560 --output lizard_ages
 ```
 
+Open 'lizard_ages_dates.txt'.
+
+**Q** *What are the maximum and minimum age estimates for the root of this three taxon tree?*
+
+
+**Q** *Is there overlap between the age estimates for the root and for the internal node?*
+
+
+You can also gather node age data for a single taxon.
+
 ```
    $ python  get_dates.py --ott-ids 675102 --output python_ages
 ```
 
-There is also an R-package to gather date information and estimate dated trees, Datelife, available online at datelife.opentreeoflife.org.
+There is also an R-package to gather date information and estimate dated trees, Datelife, available online at (datelife.opentreeoflife.org).
 
 
 
@@ -328,7 +338,7 @@ https://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html
 
 <img src="img/rotlrgbif.png" alt="drawing" width="400"/>  
 
-### Unifying geographic and phylogenetic data using Jupyter notebooks
+### Unifying geographic and phylogenetic data using python-opentree and Jupyter notebooks
 
 
 https://github.com/McTavishLab/jupyter_OpenTree_tutorials/blob/master/notebooks/DEMO_OpenTree.ipynb

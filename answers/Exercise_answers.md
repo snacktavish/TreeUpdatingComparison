@@ -28,6 +28,33 @@ Iqtree: (((Alligator, Caiman),(((Emys, Chelonius), Caretta), Phyrnops)),(Gallus,
 
 'lizards' are not a monophyletic group!
 
+**Q** What are the maximum and minimum age estimates for the root of this three taxon tree?
+
+Root is Episquamata ott4945816
+
+Max age is 
+Age: 206.62653 Myr
+Study: ot_2008@tree3 
+https://tree.opentreeoflife.org/curator/study/view/ot_2008?tab=trees&tree=tree3
+Roquet, C., Lavergne, S., & Thuiller, W. (2014). One Tree to Link Them All: A Phylogenetic Dataset for the European Tetrapoda. PLoS Currents. doi:10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+http://dx.doi.org/10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
+
+
+Min age is:
+Age: 163.041626 Myr
+Study: ot_307@tree2 
+https://tree.opentreeoflife.org/curator/study/view/ot_307?tab=trees&tree=tree2
+Wright, April M., Kathleen M. Lyons, Matthew C. Brandley, David M. Hillis. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. Journal of Experimental Zoology Part B: Molecular and Developmental Evolution 324 (6): 504-516
+http://dx.doi.org/10.1002/jez.b.22642
+
+
+
+**Q** Is there overlap between the age estimates for the root and for the internal node?
+
+Yes - root is 163-209 MYA, internal node is 160-198 Mya
+
+
 **Q** *What are the relationships among these taxa?*  
 
 
