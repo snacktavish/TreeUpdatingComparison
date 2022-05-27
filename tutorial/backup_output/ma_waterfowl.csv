@@ -1,0 +1,49 @@
+ORIGINAL LABEL,OTT TAXON NAME,OTT TAXON ID,TAXONOMIC SOURCES
+ Dendrocygna autumnalis ,Dendrocygna autumnalis,662608,ncbi:8873;worms:422567;gbif:2498393;irmng:10189259
+ Dendrocygna bicolor ,Dendrocygna bicolor,662618,ncbi:8874;worms:212674;gbif:2498402;irmng:10189260
+ Anser caerulescens,Anser caerulescens,190878,ncbi:8849;worms:159204;gbif:2498165;irmng:11167814;irmng:10195594
+ Anser rossii ,Anser rossii,767830,ncbi:56281;worms:159086;irmng:10824526;irmng:10189256;irmng:10189258
+ Anser albifrons,Anser albifrons,430239,ncbi:50365;worms:159159;gbif:2498017;irmng:10587752
+ Anser brachyrhynchus ,Anser brachyrhynchus,970372,ncbi:132585;worms:416683;gbif:2498024;irmng:10767173
+ Branta bernicla,Branta bernicla,135287,ncbi:184712;worms:159175;gbif:5232446;irmng:11345921
+ Branta leucopsis ,Branta leucopsis,799124,ncbi:184711;worms:159177;gbif:5232464;irmng:10195591
+ Branta hutchinsii,Branta hutchinsii,972531,ncbi:371860;worms:422569;gbif:5232452;irmng:11831705
+ Branta canadensis ,Branta canadensis,714461,ncbi:8853;worms:159176;gbif:5232437;irmng:10585055
+ Cygnus olor ,Cygnus olor,140314,ncbi:8869;worms:159090;gbif:2498343;irmng:11123166
+ Cygnus buccinator ,Cygnus buccinator,870606,ncbi:48397;worms:422570;gbif:2498345;irmng:10857024;irmng:10684629
+ Cygnus columbianus ,Cygnus columbianus,207360,ncbi:110926;worms:159088;gbif:2498338;irmng:11267548;irmng:10997958
+ Aix sponsa ,Aix sponsa,765195,ncbi:8833;worms:158938;gbif:2498387;irmng:10840166
+ Spatula querquedula ,Anas querquedula,604176,ncbi:75856;worms:159169;gbif:2498083;irmng:11267700
+ Spatula discors ,Anas discors,82415,ncbi:75842;worms:159167;gbif:2498073;irmng:10839936
+ Spatula cyanoptera ,Anas cyanoptera,82411,ncbi:75840;worms:225906;gbif:2498139;irmng:10189002
+ Spatula clypeata ,Anas clypeata,656794,ncbi:75838;worms:158941;gbif:2498089;irmng:11106046
+ Mareca strepera ,Mareca strepera,30856,ncbi:75861;worms:159171;irmng:10855351
+ Mareca penelope,Mareca penelope,765180,ncbi:8838;worms:159168;gbif:2498111;irmng:11307816
+ Mareca americana ,Mareca americana,656788,ncbi:75832;worms:158940;gbif:2498154;irmng:10839935
+ Anas platyrhynchos ,Anas platyrhynchos,765167,ncbi:8839;worms:148791;gbif:9761484;irmng:10840147
+ Anas rubripes ,Anas rubripes,604178,ncbi:75857;worms:159170;gbif:9581438;irmng:10195867
+ Anas acuta ,Anas acuta,855474,ncbi:28680;worms:158939;gbif:2498112;irmng:10587754
+ Anas crecca ,Anas crecca,656799,ncbi:75839;worms:158943;gbif:8214667;irmng:10195576
+ Aythya valisineria,Aythya valisineria,832938,ncbi:110915;worms:159173;gbif:2498256;irmng:10884721
+ Aythya americana,Aythya americana,693332,ncbi:30385;worms:159162;gbif:2498263;irmng:10195882
+ Aythya collaris ,Aythya collaris,1044563,ncbi:189535;worms:159163;gbif:2498264;irmng:10195883
+ Aythya fuligula ,Aythya fuligula,817992,ncbi:219594;worms:159164;gbif:2498261;irmng:10200088
+ Aythya marila,Aythya marila,1044561,ncbi:189534;worms:159172;gbif:2498265;irmng:11059080
+ Aythya affinis,Aythya affinis,1044556,ncbi:189533;worms:159161;gbif:2498257;irmng:10762371
+ Polysticta stelleri ,Polysticta stelleri,1050966,ncbi:234623;worms:232041;gbif:5232431;irmng:10999908
+ Somateria spectabilis,Somateria spectabilis,633262,ncbi:203439;worms:137075;gbif:2498350;irmng:11342721
+ Somateria mollissima ,Somateria mollissima,785961,ncbi:76058;worms:137074;gbif:2498352;irmng:11099727
+ Histrionicus histrionicus,Histrionicus histrionicus,679317,ncbi:68165;worms:159092;gbif:2498224;irmng:10199833
+ Camptorhynchus labradorius ,Camptorhynchus labradorius,526047,ncbi:399386;worms:159202;irmng:10840879
+ Melanitta perspicillata,Melanitta perspicillata,972536,ncbi:371863;worms:159095;gbif:2498246;irmng:10594098
+ Melanitta deglandi,Melanitta deglandi,5560147,worms:567404;irmng:11181568
+ Melanitta americana,Melanitta americana,5560148,ncbi:1581554;worms:366594;irmng:11788060
+ Clangula hyemalis,Clangula hyemalis,316879,ncbi:197941;worms:137071;gbif:2498273;irmng:10590514
+ Bucephala albeola,Bucephala albeola,654820,ncbi:279934;worms:159179;gbif:2498329;irmng:10199832;irmng:11217804
+ Bucephala clangula,Bucephala clangula,166683,ncbi:107022;worms:159197;gbif:2498326;irmng:11008974
+ Bucephala islandica,Bucephala islandica,780952,ncbi:40833;worms:159198;gbif:2498325;irmng:10199829
+ Lophodytes cucullatus ,Lophodytes cucullatus,809009,ncbi:279951;worms:159094;gbif:2498408;irmng:10190118;irmng:10797406
+ Mergus merganser ,Mergus merganser,88388,ncbi:8880;worms:159097;gbif:9537647;irmng:10587529
+ Mergus serrator ,Mergus serrator,662625,ncbi:8879;worms:159098;gbif:2498375;irmng:11027556
+ Nomonyx dominicus ,Nomonyx dominica,892281,ncbi:555276;worms:422574;gbif:2498316;irmng:11308391;irmng:11418238
+ Oxyura jamaicensis ,Oxyura jamaicensis,88378,ncbi:8884;worms:159100;gbif:2498305;irmng:10193187
