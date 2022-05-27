@@ -103,14 +103,17 @@ The names of the taxa you included used in your tree estimation in Minh's lab ar
 
 
 One of the key challenges of comparing trees across studies is minor differences in names and naming.
-We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
 
+In the tutorial/data folder is a text file A solution to this, is mapping taxon names to unique identifiers using the Open Tree Taxonomic Name Resolution Service (TNRS). There are a few options to use this service including via the API, or the browser based bulk name mapping. 
+https://tree.opentreeoflife.org/curator/tnrs/
+
+The names of the taxa you will search for this tutorial were copied from https://en.wikipedia.org/wiki/List_of_birds_of_Massachusetts and are saved as a text file in "tutorial/data/waterfowl_of_ma.txt" (https://github.com/snacktavish/Mole2022/blob/master/tutorial/data/waterfowl_of_ma.txt).
 
 *Try this*
-  * Click on "add names", and upload the names file. (tutorial/species_names.txt)  
+  * Click on "add names", and upload the names file. (tutorial/birds_of_georgia.txt)  
+  (you can dowload it directly to you laptop from )
   * In the mapping options section,
-    - select 'animals' to narrow down the possibilities and speed up mapping
-    - set it to replace '\_' with ' '
+    - select 'Birds' to narrow down the possibilities and speed up mapping
   * Click "Map selected names"
 
 Exact matches will show up in green, and can be accepted by clicking "accept exact matches".
@@ -125,16 +128,16 @@ Download it to your laptop.
 Extract the files.
 Take a look at the human readable version (output/main.csv).
 
-
 main.json contains the the same data in a more computer readable format.
-Transfer the main.json file to the tutorial folder on the cluster.
+
+Transfer the `output/main.csv` file to the tutorial folder on the cluster, and rename it to `ma_waterfowl.csv`
 
 ### Using API's
 You can use the OpenTree API's to get the tree for a subset of taxa directly from the command line
 
 For example:
 ```
-curl -X POST https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree -H "content-type:application/json" -d '{"ott_ids":[292466, 267845, 316878]}'
+curl -X POST https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree -H "content-type:application/json" -d '{"ott_ids":[662625, 765195, 662618]}'
 ```
 For more on the OpenTree APIs see https://github.com/OpenTreeOfLife/germinator/wiki/Open-Tree-of-Life-Web-APIs
 
@@ -153,17 +156,17 @@ or by cloning and installing from https://github.com/OpenTreeOfLife/python-opent
 
 
 ### Getting a subtree
-Take a look at the script in the tutorials folder 'get_subtree.py'.
+Take a look at the script in the tutorials folder 'get_synth_subtree.py'.
 
 ```
-    $ python get_synth_subtree.py --input-file output/main.csv 
+    $ python get_synth_subtree.py --input-file ma_waterfowl.csv --output ma_wf_synth
 
 ```
 
-It will write two files out to your current working directory - the tree in newick format, 'synth_subtree.tre' and 'citations.txt' the citations of published trees that went into generating that tree, and support the relationships in it.
+This script will write two files out to your current working directory - the tree in newick format, 'ma_wf_synth.tre' and 'ma_wf_synth_citations.txt' the citations of published trees that went into generating that tree, and support the relationships in it.
 
 Move both those files to your computer.
-Open the synthetic subtree in figtree to look at the placement of turtles.
+Open the synthetic subtree in figtree.
 
 
 
