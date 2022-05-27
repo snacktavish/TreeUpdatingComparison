@@ -219,12 +219,29 @@ You can seach the corpus of trees based on taxon name or taxon id
 ```
 
 ## Getting date estimates for nodes
+
 This is beta functionality, that we are in the process of adding to the OpenTree services.
+The API docs are posted at https://github.com/OpenTreeOfLife/chronosynth/wiki/Draft-API
+
+You can query the study corpus based on either a higher taxon id (e.g. Python ott675102), or an internal node label (e.g. mrcaott1000311ott3643727).
+
+The dates API will return the ages of internal nodes of input trees that align with that node.
+
+e.g.
+
+```
+   $ curl -X GET https://dates.opentreeoflife.org/v4/dates/synth_node_age/ott675102
+```
+
+
+The python script get_dates.py translates the short form citations into their full citation information.
+It outputs 
+
+```
+   $ python  get_dates.py --ott-ids 937560  --output lizard
+```
+
 There is also an R-package to gather date information, Datelife, available online at datelife.opentreeoflife.org
-
-
-
-
 
 
 ##  Exercise
@@ -259,7 +276,6 @@ Make a list of taxa you are interested in and save it in a text file.
 (Scientific names only)
 
 Resolve those names to Open Tree identifiers, and use `get_synth_subtree.py` to get a tree for your taxa of interest.
-
 
 
 ### Contribute to OpenTree
