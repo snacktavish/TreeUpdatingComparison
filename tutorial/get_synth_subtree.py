@@ -35,7 +35,7 @@ if args.input_file:
         try:
             column = header.index(args.ott_id_header)
         except ValueError:
-            sys.stderr.write("Column label '{oth}' not found in hearder row. Exiting.\n".format(oth=args.ott_id_header))
+            sys.stderr.write("Column label '{oth}' not found in header row. Exiting.\n".format(oth=args.ott_id_header))
             sys.exit()
         for line in csvfile:
             row = line.split(',')

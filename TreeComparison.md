@@ -1,4 +1,4 @@
-# Comparing and updating phylogenetic trees
+# Comparing and dating phylogenetic trees
 ### Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
 
 
@@ -173,7 +173,8 @@ How does the tree we estimated compare to taxonomy and other published literatur
 
 In order to make comparisons about statements that two different trees are making about the same set of taxa, we need to make sure the labels on the tree match.
 
-I have generated a tree file for you 'turtle_iqtree_OTT.tre' from an IQTtree excercise from a previous year of this course (http://www.iqtree.org/workshop/molevol2019), and labelled it with standardized taxon name labels.
+I have generated a tree file for you 'turtle_iqtree_OTT.tre' from an IQTtree excercise from a previous year of this course (http://www.iqtree.org/workshop/molevol2019), and labelled it with standardized taxon name labels. 
+This was an example data set specifically chosen to be a challenging inference problem.
 
 You can get a comparison tree from OpenTree using the mapped names file, tutorial/data/turtle_tree_names.csv
 Instead of including the name and the ott id on each, tip, we will just download it with the names.
@@ -186,9 +187,9 @@ Instead of including the name and the ott id on each, tip, we will just download
 Open the synthetic tree (turtle_synth.tre) and the example inferred tree (turtle_iqtree_OTT.tre) in figtree.
 
 
-**Q** Are the relationships in 'turtle_iqtree_OTT.tre' different than the relationships from OpenTree?
+**Q1** Are the relationships in 'turtle_iqtree_OTT.tre' different than the relationships from OpenTree?
 
-**Q** How so?
+**Q2** How so?
 
 
 ### Lets take a closer look!
@@ -205,6 +206,9 @@ try running:
 ```
     $ python get_synth_subtree.py --ott-ids 970153 675102 937560  --output lizards
 ```
+
+The output tree will be written to lizards.tre.
+
 
 ## Finding published trees that have your taxon or taxa of interest:
 
@@ -235,13 +239,14 @@ e.g.
 
 
 The python script get_dates.py translates the short form citations into their full citation information.
-It outputs 
+It outputs the tree if you input a list of ids, and a date file with age estimates and citations for nodes.
 
 ```
    $ python  get_dates.py --ott-ids 937560  --output lizard
 ```
 
-There is also an R-package to gather date information, Datelife, available online at datelife.opentreeoflife.org
+There is also an R-package to gather date information and estimate dated trees, Datelife, available online at datelife.opentreeoflife.org.
+
 
 
 ##  Exercise
@@ -254,18 +259,18 @@ There are genomic resources available in the genera Cassiopea, Aurelia and Rhopi
 *Which genome should they use to assemble their transcriptome?*
 
 
-**Q)** What are the relationships among these taxa? Which taxon is most closely related to mastigias?
+**Q3)** What are the relationships among these taxa? Which taxon is most closely related to mastigias?
 
-**Q)** What studies support this inference?
+**Q4)** What studies support this inference?
 
 One of the genera got renamed! Why?
 Look in the synthetic tree, to assess what is happened.  
 
-**Q)**  Which genus?
+**Q5)**  Which genus?
 
-**Q)**  What phylogenetically supported three-taxon relationship breaks up this genus?
+**Q6)**  What phylogenetically supported three-taxon relationship breaks up this genus?
 
-**Q)**  Is there conflict between the phylogenetic studies that traverse this part of the tree?
+**Q7)**  Is there conflict between the phylogenetic studies that traverse this part of the tree?
 
 
 ## Choose your own adventure!
@@ -296,6 +301,12 @@ Tutorial on linking data from OpenTree with species locations from GBIF,
 https://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html
 
 <img src="img/rotlrgbif.png" alt="drawing" width="400"/>  
+
+### Unifying geographic and phylogenetic data using Jupyter notebooks
+
+
+https://github.com/McTavishLab/jupyter_OpenTree_tutorials/blob/master/notebooks/DEMO_OpenTree.ipynb
+
 
 
 ### Zoom around
