@@ -129,8 +129,8 @@ The new sequence data and alignment to update are available via wget
 
 ```
     wget ***blargh best way to get data files***
-    tar -xzvf EP_demo.tar.xz
-    cd EP_demo
+    tar -xzvf EP_tutorial_data.tar.xz
+    cd EP_tutorial_data
 ```
 (Commands below assume that you have unpacked this into your extensiphy directory)
 
