@@ -21,12 +21,8 @@ You need:
 
 ## Installation and testing
 
-Clone the git repository
 
-```
-   git clone https://github.com/McTavishLab/extensiphy.git
-   cd extensiphy
-```
+The repository and data should already be on your virtual machine, in the folder `extensiphy`.
 
 All of the dependencies are already installed on the virtual machine except raxmlHPC
 You can install it using:
@@ -125,14 +121,12 @@ If you wanted to download the sequences directly from SRA you could use
     fastq-dump --split-files SRR19127720
 ```
 
-The new sequence data and alignment to update are available via wget
+The new sequence data and alignment to update are in the folder `extensiphy/neisseria_demo`
 
 ```
-    wget ***blargh best way to get data files***
-    tar -xzvf EP_tutorial_data.tar.xz
-    cd EP_tutorial_data
+    cd neisseria_demo
 ```
-(Commands below assume that you have unpacked this into your extensiphy directory)
+
 
 
 NCBI places these sequences in a SNP tree, but that does not incorporate any uncertainty, or a full phylogenetic analysis.
@@ -155,7 +149,7 @@ Open it in in figtree, and root it with "ERR2525602" as an outgroup.
 By default, EP uses Raxml to estimate ML phylogenies - but the updated alignemnet is saved as output_dir/RESULTS/extended.aln, which you can use to estimate a phylogeny using any method.
 
 
-The new taxa we have added were damples in the last month - whereas the extisting tips are form 2019 or earlier.
+The new taxa we have added were damples in the last month - whereas the extisting tips are from 2019 or earlier.
 
 **Q** *Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related in the ML tree?*
 
