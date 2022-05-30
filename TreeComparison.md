@@ -157,8 +157,6 @@ Install the opentree python package:
     ```pip install opentree```
 
 
-Module is available at 
-
 
 ### Getting a subtree
 Take a look at the script in the tutorials folder 'get_synth_subtree.py'.
