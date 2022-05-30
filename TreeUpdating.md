@@ -113,21 +113,24 @@ We can get more information about where these lineages were sequences, and if th
   - https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SRR19127720
 
 
+**Q** *Do any of these lineages have known anti-microbial resistance genes?*
+
+
+The new sequence data and alignment to update are in the folder `extensiphy/neisseria_demo`
+```
+    cd neisseria_demo
+```
+
+(If you are are not running this on the MOLE virtual machines, you can download the data from LINK and extract it)
+
+
 If you wanted to download the sequences directly from SRA you could use
-*Don't run these (they wont work unless you have installed SRA toolkit)*
+*Don't run these at the workshop (they wont work anyways unless you have installed SRA toolkit)*
 ```
     fastq-dump --split-files SRR19310037
     fastq-dump --split-files SRR19310038
     fastq-dump --split-files SRR19127720
 ```
-
-The new sequence data and alignment to update are in the folder `extensiphy/neisseria_demo`
-
-```
-    cd neisseria_demo
-```
-
-
 
 NCBI places these sequences in a SNP tree, but that does not incorporate any uncertainty, or a full phylogenetic analysis.
 https://www.ncbi.nlm.nih.gov/pathogens/tree/#Neisseria/PDG000000032.278/PDS000104772.5?accessions=PDT001307203.3
@@ -137,37 +140,41 @@ We will add these sequences to an existing core genome alignment generated using
 
 (I have subsampled the alignment from 1200 lineages to 30, and cut the sequences down to 500K BP to make inference faster for this demo).
 
-
 ```
-    ../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u PHYLO -o EP_demo
+    ../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u PHYLO -o EP_demo_1
 ```
 
-The ML tree file is in:
-Open it in in figtree, and root it with "ERR2525602" as an outgroup.
+The ML tree file will be in the file `EP_demo_1/RESULTS/RAxML_bestTree.consensusFULL`
+
+Transfer it to your computer, and open it in figtree
+Root it with "ERR2525602" as an outgroup.
 
 
-By default, EP uses Raxml to estimate ML phylogenies - but the updated alignemnet is saved as output_dir/RESULTS/extended.aln, which you can use to estimate a phylogeny using any method.
+By default, EP uses RaxmlHPC to estimate ML phylogenies - but the updated alignemnet is saved as output_dir/RESULTS/extended.aln, which you can use to estimate a phylogeny using any method.
 
 
-The new taxa we have added were damples in the last month - whereas the extisting tips are from 2019 or earlier.
+The new taxa we have added were sampled in the last month - whereas the existing tips are from 2019 or earlier.
 
 **Q** *Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related in the ML tree?*
 
-
 You can have EP automatically bootstrap the tree as well by adding '-b ON' to the arguments.
 
-Bootstrapping takes a while on trees  - so I have run it for you, and put the output files in 'EP_demo/bootstrap_results/'
+Bootstrapping takes a little while - so I have run it for you, and put the output files in 'EP_demo/bootstrap_results/'
 
-The majority rule consensus tree is in the file "EP_demo/bootstrap_results/RAxML_bipartitions.majority_rule_bootstrap_consensus
-"
+The majority rule consensus tree is in the file `bootstrap_results/RAxML_bipartitions.majority_rule_bootstrap_consensus
+`
 
 **Q** *Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related in the bootstrap consensus tree?*
 
 
+Many of the common antimicrobial resistance (AMR) genes are horizontally transferred, so close relatives can have different AMR genes and phenotypes.
+Look up the two closest relatives of the new lineage with known AMR genes in https://www.ncbi.nlm.nih.gov/pathogens/
+
+**Q**  *Do these three lineages share the same resistance genes?*
 
 ## Using an alternate reference
 
-The reference that you choose can affect your consensus sequencee calling, and therefor your phylogenetic inference. Lets try assemebling these new taxa, but using the outgroup as a reference instead.
+The reference that you choose can affect your consensus sequencee calling, and therefore your phylogenetic inference. Lets try assemebling these new taxa, but using the outgroup as a reference instead.
 
 ```
 ../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u ALIGN -r ERR2525602 -o EP_demo_alternate_ref
@@ -192,7 +199,7 @@ e.g. change ">SRR19310037" to  ">SRR19310037_alt"
 
 Because they are already aligned, we can just concateneate them to form an alignment that includes both our original consesuses for these taxa, and these new inferences.
 
-```cat EP_demo/RESULTS/extended.aln EP_demo_alternate_ref/SRR19310037output_dir/SRR19310037_align.fas EP_demo_alternate_ref/SRR19310038output_dir/SRR19310038_align.fas EP_demo_alternate_ref/SRR19127720output_dir/SRR19127720_align.fas > combined_refs.fas
+```cat EP_demo_1/RESULTS/extended.aln EP_demo_alternate_ref/SRR19310037output_dir/SRR19310037_align.fas EP_demo_alternate_ref/SRR19310038output_dir/SRR19310038_align.fas EP_demo_alternate_ref/SRR19127720output_dir/SRR19127720_align.fas > combined_refs.fas
 ```
 
 We can then estimate a tree on this updated alignment - e.g. using RAxML (or any other phylogenetic inference software)
@@ -205,6 +212,7 @@ Your ML tree will be saved as RAxML_bestTree.compare_references. Take a look at 
 
 
 **Q** *Does changing the reference taxon change the phylogeny?*
+
 
 
 
