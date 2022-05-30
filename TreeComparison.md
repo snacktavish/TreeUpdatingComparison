@@ -212,8 +212,10 @@ Open the synthetic tree (turtle_synth.tre) and the example inferred tree (turtle
 
 ### Lets take a closer look!
 
+The phylogenetic placement of turtles is contentious ([see Simion et al 2020 for discussion](https://hal.archives-ouvertes.fr/hal-02535366)). Lets look at the lizard/snake realtionships!
+
 You can also pass ott ids into `get_synth_subtree.py` directly. 
-The ids for each taxon from the turtle tree are listed in 'data/turtle_tree_names.csv'. 
+The ids for each taxon from the 'turtle_iqtree_OTT.tre' tree are listed in 'data/turtle_tree_names.csv'. 
 Or you can search names in the search box at tree.opentreeoflife.org, and get the ott ids from there.
 
 For example, to see the relationships between Python (ott:675102), e.g. *Python regius*
@@ -224,6 +226,7 @@ try running:
 ```
     $ python get_synth_subtree.py --ott-ids 970153 675102 937560  --output lizards
 ```
+
 
 The output tree will be written to lizards.tre.
 
