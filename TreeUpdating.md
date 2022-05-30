@@ -34,18 +34,13 @@ You can install it using:
 Check that the install is working by running:
 
 ```
+    cd extensiphy_tutorial
    ./extensiphy.sh -a ./testdata/combo.fas -d ./testdata -1 _R1.fq -2 _R2.fq -u PHYLO -o EP_output
 ```
 
 
 ### Extensiphy Help Menu
-Extensiphy takes command line arguments to update a sequence alignment with new taxa sequences. Lets look at the options used by Extensiphy. Extensiphy use revolves around calling the
-
-```bash
-   $ ./extensiphy.sh
-```
-
-command followed by flags (dashes next to a letter corresponding the option you wish to use or input).
+Extensiphy takes command line arguments to update a sequence alignment with new taxa sequences. Lets look at the options used by Extensiphy. Extensiphy use revolves around calling extensiphy.sh followed by flags (dashes next to a letter corresponding the option you wish to use or input).
 Calling the help menu with the following command:
 
 ```bash
@@ -116,9 +111,9 @@ We can get more information about where these lineages were sequences, and if th
 **Q** *Do any of these lineages have known anti-microbial resistance genes?*
 
 
-The new sequence data and alignment to update are in the folder `extensiphy/neisseria_demo`
+The new sequence data and alignment to update are in the folder `extensiphy/Neisseria_demo`
 ```
-    cd neisseria_demo
+    cd Neisseria_demo
 ```
 
 (If you are are not running this on the MOLE virtual machines, you can download the data from LINK and extract it)
