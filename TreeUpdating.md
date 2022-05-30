@@ -116,7 +116,7 @@ The new sequence data and alignment to update are in the folder `extensiphy/Neis
     cd Neisseria_demo
 ```
 
-(If you are are not running this on the MOLE virtual machines, you can download the data from LINK and extract it)
+(If you are are not running this on the MOLE virtual machines, you can download the data from [tar ball link](https://ucmerced.box.com/s/h6lxm9zwj1p013ek5lqea09oyyp2h5hy) and extract it)
 
 
 If you wanted to download the sequences directly from SRA you could use
