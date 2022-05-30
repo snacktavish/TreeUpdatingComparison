@@ -34,7 +34,7 @@ You can install it using:
 Check that the install is working by running:
 
 ```
-    cd extensiphy_tutorial
+    cd extensiphy
    ./extensiphy.sh -a ./testdata/combo.fas -d ./testdata -1 _R1.fq -2 _R2.fq -u PHYLO -o EP_output
 ```
 
