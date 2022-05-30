@@ -113,7 +113,6 @@ The names of the taxa you will search for this tutorial were
 dowloaded from GBIF (GBIF.org (27 May 2022) GBIF Occurrence Download https://doi.org/10.15468/dl.gcmn6n).
 
 
-
 *Try this*
   * Click on "add names", and upload the names file. (tutorial/WH_hydrozoan_names.txt)  
   (you can dowload it directly to you laptop from )

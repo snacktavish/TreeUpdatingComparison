@@ -138,12 +138,12 @@ We will add these sequences to an existing core genome alignment generated using
 ```
     ../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u PHYLO -o EP_demo_1
 ```
+(This may take 5-10 min.)
 
 The ML tree file will be in the file `EP_demo_1/RESULTS/RAxML_bestTree.consensusFULL`
 
 Transfer it to your computer, and open it in figtree
 Root it with "ERR2525602" as an outgroup.
-
 
 By default, EP uses RaxmlHPC to estimate ML phylogenies - but the updated alignemnet is saved as output_dir/RESULTS/extended.aln, which you can use to estimate a phylogeny using any method.
 
