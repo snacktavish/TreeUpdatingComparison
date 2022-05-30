@@ -151,13 +151,13 @@ It is often more convenient to manipulate both trees and names within a scriptin
 
 
 ### Using Python
-We will use wrappers available in the python package [OpenTree](https://academic.oup.com/sysbio/article/70/6/1295/6273200) to make it easier to work with the Open Tree Api's.
+We will use wrappers available in the python package [OpenTree](https://github.com/OpenTreeOfLife/python-opentree)[McTavish et al 2022](https://academic.oup.com/sysbio/article/70/6/1295/6273200) to make it easier to work with the Open Tree Api's.
 
-This package is already installed on your virtual machine, but you can install it on your own machine either using 
+Install the opentree python package:
+    ```pip install opentree```
 
-```pip install opentree```
 
-or by cloning and installing from https://github.com/OpenTreeOfLife/python-opentree
+Module is available at 
 
 
 ### Getting a subtree
