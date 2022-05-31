@@ -1,4 +1,4 @@
-# Comparing phylogenetic trees
+# Comparing phylogenetic trees, gathering date estimates
 ### Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
 
 
