@@ -21,8 +21,9 @@ You need:
 
 ## Installation and testing
 
+Copy the code and data to your home directory
 ```
-   git clone https://github.com/McTavishLab/extensiphy.git
+  cp -r moledata/extensiphy/ ./ 
 ```
 The repository and data should already be on your virtual machine, in the folder `extensiphy`.
 
