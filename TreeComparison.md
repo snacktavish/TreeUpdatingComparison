@@ -158,9 +158,9 @@ Install the opentree python package:
 
 
 ### Getting a subtree
-Take a look at the script in the tutorials folder 'get_synth_subtree.py'.
+There is a python script in the tutorials folder 'get_synth_subtree.py'. 
 
-This uses the taxon ids in the file `WH_jellies.csv` you transferred from your computer to get a synthetic tree. 
+This script uses the taxon ids in the file `WH_jellies.csv` you transferred from your computer to get a synthetic tree from the OpenTree APIs. 
 If you had trouble with that step you can use `backup_output/WH_jellies.csv` as the input file instead.
 
 The argument 'output' sets the first part of the output filename.
