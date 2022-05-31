@@ -171,7 +171,7 @@ Look up the two closest relatives of the new lineage with known AMR genes in htt
 
 ## Using an alternate reference
 
-The reference that you choose can affect your consensus sequencee calling, and therefore your phylogenetic inference. Lets try assembling these new taxa, but using the outgroup as a reference instead.
+The reference that you choose can affect your consensus sequence calling, and therefore your phylogenetic inference. Lets try assembling these new taxa, but using the outgroup as a reference instead.
 
 ```
 ../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u ALIGN -r ERR2525602 -i CLEAN -o EP_demo_alternate_ref
