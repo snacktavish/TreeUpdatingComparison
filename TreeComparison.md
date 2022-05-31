@@ -288,7 +288,6 @@ There is also an R-package to gather date information and estimate dated trees, 
 <img src="img/mastigias.jpg" alt="drawing" width="400"/>  
 
 A student is studying jellyfish that live in Jellyfish Lake in Palau.   
-Check out https://www.youtube.com/watch?v=DhpaqFya2pg for a cool video of them swimming around!
 They are in genus 'Mastigias'. She needs to assemble a transcriptome, and wants to use an assembled reference genus.
 There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema.  
 *Which genome should they use to assemble their transcriptome?*
