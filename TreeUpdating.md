@@ -22,10 +22,10 @@ You need:
 ## Installation and testing
 
 Copy the code and data to your home directory
+
 ```
   cp -r moledata/extensiphy/ ./ 
 ```
-The repository and data should already be on your virtual machine, in the folder `extensiphy`.
 
 All of the dependencies are already installed on the virtual machine.
 
