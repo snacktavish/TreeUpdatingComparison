@@ -171,7 +171,7 @@ Look up the two closest relatives of the new lineage with known AMR genes in htt
 
 ## Using an alternate reference
 
-The reference that you choose can affect your consensus sequencee calling, and therefore your phylogenetic inference. Lets try assemebling these new taxa, but using the outgroup as a reference instead.
+The reference that you choose can affect your consensus sequencee calling, and therefore your phylogenetic inference. Lets try assembling these new taxa, but using the outgroup as a reference instead.
 
 ```
 ../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u ALIGN -r ERR2525602 -i CLEAN -o EP_demo_alternate_ref
@@ -179,7 +179,7 @@ The reference that you choose can affect your consensus sequencee calling, and t
 
 The consensus aligned sequence for each run is saved in output_dir/combine_and_infer/seqname_align.fas (Where 'seqname' is the filename stub of the reads).
 
-In the EP_demo folder is a really simple script that counts the differences between aligned sequences in fastas files.
+In the Neisseria_demo folder is a really simple script that counts the differences between aligned sequences in fastas files.
 
 ```
     python diff_counter.py <path_to_seq1> <path_to_seq2>
@@ -196,7 +196,8 @@ e.g. change ">SRR19310037" to  ">SRR19310037_alt"
 
 Because they are already aligned, we can just concateneate them to form an alignment that includes both our original consesuses for these taxa, and these new inferences.
 
-```cat EP_demo_1/RESULTS/extended.aln EP_demo_alternate_ref/combine_and_infer/SRR19310037_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19310038_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19127720_align.fas > combined_refs.fas
+```
+cat EP_demo_1/RESULTS/extended.aln EP_demo_alternate_ref/combine_and_infer/SRR19310037_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19310038_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19127720_align.fas > combined_refs.fas
 ```
 
 We can then estimate a tree on this updated alignment - e.g. using RAxML (or any other phylogenetic inference software)
