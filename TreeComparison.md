@@ -150,7 +150,7 @@ It is often more convenient to manipulate both trees and names within a scriptin
 
 
 ### Using Python
-We will use wrappers available in the python package [OpenTree](https://github.com/OpenTreeOfLife/python-opentree)[McTavish et al 2022](https://academic.oup.com/sysbio/article/70/6/1295/6273200) to make it easier to work with the Open Tree Api's.
+We will use wrappers available in the python package [OpenTree](https://github.com/OpenTreeOfLife/python-opentree),([McTavish et al 2022](https://academic.oup.com/sysbio/article/70/6/1295/6273200) to make it easier to work with the Open Tree Api's.
 
 Install the opentree python package:
     ```pip install opentree```
