@@ -110,9 +110,6 @@ We can get more information about where these lineages were sequences, and if th
 
 Copy the data to your extensiphy directory by running:
 
-```
-    cp -r moledata/extensiphy/Neisseria_demo ./
-```
 
 The new sequence data and alignment to update are in the folder `extensiphy/Neisseria_demo`
 ```
