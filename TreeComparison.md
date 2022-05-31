@@ -1,4 +1,4 @@
-# Comparing and dating phylogenetic trees
+# Comparing phylogenetic trees
 ### Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
 
 
