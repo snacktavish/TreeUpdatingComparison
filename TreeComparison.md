@@ -114,7 +114,7 @@ dowloaded from GBIF (GBIF.org (27 May 2022) GBIF Occurrence Download https://doi
 
 
 *Try this*
-  * Click on "add names", and upload the names file. (tutorial/WH_hydrozoan_names.txt)  
+  * Click on "add names", and upload the names file. (tutorial/data/WH_hydrozoan_names.txt)  
   (you can dowload it directly to you laptop from )
   * In the mapping options section,
     - select 'Cnidarians' to narrow down the possibilities and speed up mapping
@@ -150,7 +150,7 @@ It is often more convenient to manipulate both trees and names within a scriptin
 
 
 ### Using Python
-We will use wrappers available in the python package [OpenTree](https://github.com/OpenTreeOfLife/python-opentree)[McTavish et al 2022](https://academic.oup.com/sysbio/article/70/6/1295/6273200) to make it easier to work with the Open Tree Api's.
+We will use wrappers available in the python package [OpenTree](https://github.com/OpenTreeOfLife/python-opentree),([McTavish et al 2022](https://academic.oup.com/sysbio/article/70/6/1295/6273200)) to make it easier to work with the Open Tree Api's.
 
 Install the opentree python package:
     ```pip install opentree```
@@ -158,9 +158,9 @@ Install the opentree python package:
 
 
 ### Getting a subtree
-Take a look at the script in the tutorials folder 'get_synth_subtree.py'.
+There is a python script in the tutorials folder 'get_synth_subtree.py'. 
 
-This uses the taxon ids in the file `WH_jellies.csv` you transferred from your computer to get a synthetic tree. 
+This script uses the taxon ids in the file `WH_jellies.csv` you transferred from your computer to get a synthetic tree from the OpenTree APIs. 
 If you had trouble with that step you can use `backup_output/WH_jellies.csv` as the input file instead.
 
 The argument 'output' sets the first part of the output filename.
@@ -288,7 +288,6 @@ There is also an R-package to gather date information and estimate dated trees, 
 <img src="img/mastigias.jpg" alt="drawing" width="400"/>  
 
 A student is studying jellyfish that live in Jellyfish Lake in Palau.   
-Check out https://www.youtube.com/watch?v=DhpaqFya2pg for a cool video of them swimming around!
 They are in genus 'Mastigias'. She needs to assemble a transcriptome, and wants to use an assembled reference genus.
 There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema.  
 *Which genome should they use to assemble their transcriptome?*
