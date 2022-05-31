@@ -27,8 +27,11 @@ Copy the code and data to your home directory
   cp -r moledata/extensiphy/ ./ 
 ```
 
-All of the dependencies are already installed on the virtual machine.
+All of the dependencies are already installed on the virtual machine- but this requires another version of raxml so we will install it using apt-get
 
+```
+    sudo apt-get install raxml
+```
 
 Check that the install is working by running:
 
