@@ -3,6 +3,7 @@
 python get_synth_subtree.py --input-file ../../../LizardData/output/main.csv 
 """
 import os
+import json
 import argparse
 import sys
 import dendropy
@@ -89,3 +90,9 @@ for study in api_call.response_dict['supporting_studies']:
 
 cf.close()
 print("Citation info saved to {cf}".format(cf = citefile))
+
+
+brokenfile = "{o}_broken_taxa.txt".format(o=args.output)
+bf = open(brokenfile, 'w')
+bf.write(json.dumps(api_call.response_dict['broken']))
+bf.close()

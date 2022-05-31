@@ -24,11 +24,11 @@ You need:
 
 The repository and data should already be on your virtual machine, in the folder `extensiphy`.
 
-All of the dependencies are already installed on the virtual machine except raxmlHPC
-You can install it using:
+All of the dependencies are already installed on the virtual machine.
+Copy the scrips and data to your home directory by running:
 
 ```
-    sudo apt-get install raxml
+    cp -r moledata/extensiphy/ ./
 ```
 
 Check that the install is working by running:
@@ -100,13 +100,12 @@ The [SRR19310037](https://www.ncbi.nlm.nih.gov/sra/SRX15370312[accn]) and [SRR19
 SRR19127720 is from early May.
 
 
-We can get more information about where these lineages were sequences, and if they cary antimicrobial resistance (AMR) genes using the data in NCBI's Pathogen Database
+We can get more information about where these lineages were sequences, and if they cary antimicrobial resistance (AMR) genes using the data in NCBI's Pathogen Database. (See the "AMR Genotype column")
 
 
   - https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SRR19310037
   - https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SRR19310038
   - https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SRR19127720
-
 
 **Q** *Do any of these lineages have known anti-microbial resistance genes?*
 
@@ -136,7 +135,7 @@ We will add these sequences to an existing core genome alignment generated using
 (I have subsampled the alignment from 1200 lineages to 30, and cut the sequences down to 500K BP to make inference faster for this demo).
 
 ```
-    ../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u PHYLO -o EP_demo_1
+    ../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u PHYLO -i CLEAN -o EP_demo_1
 ```
 (This may take 5-10 min.)
 
@@ -172,7 +171,7 @@ Look up the two closest relatives of the new lineage with known AMR genes in htt
 The reference that you choose can affect your consensus sequencee calling, and therefore your phylogenetic inference. Lets try assemebling these new taxa, but using the outgroup as a reference instead.
 
 ```
-../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u ALIGN -r ERR2525602 -o EP_demo_alternate_ref
+../extensiphy.sh -a neisseria_aln.fas -1 _1.fastq -2 _2.fastq -d neisseria_reads/ -u ALIGN -r ERR2525602 -i CLEAN -o EP_demo_alternate_ref
 ```
 
 The consensus aligned sequence for each run is saved in output_dir/seqname_outputdir/seqname_align.fas (Where 'seqname' is the filename stub of the reads).
@@ -180,7 +179,7 @@ The consensus aligned sequence for each run is saved in output_dir/seqname_outpu
 In the EP_demo folder is a really simple script that counts the differences between aligned sequences.
 
 ```
-    python diff_counter.py <seq1> <seq2>
+    python diff_counter.py <path_to_seq1> <path_to_seq2>
 ```
 
 **Q** *Does changing the reference taxon change the sequences?*
