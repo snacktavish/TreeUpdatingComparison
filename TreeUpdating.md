@@ -46,7 +46,7 @@ Extensiphy takes command line arguments to update a sequence alignment with new 
 Calling the help menu with the following command:
 
 ```bash
-   $ ./extensiphy.sh -h
+   ./extensiphy.sh -h
 ```
 
 has the following output:
