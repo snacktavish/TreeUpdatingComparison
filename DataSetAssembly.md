@@ -9,17 +9,14 @@ We will compare sequences assembled from short read data using a few different p
 
 Clone the exercise repo and cd into the directory for this example if you havn't aleady done so:
 
-    git clone git@github.com:snacktavish/sequence_data_exercise.git
-    cd Neisseria_demo
+    git clone https://github.com/snacktavish/Mole2023.git
+    cd Mole2023/Neisseria_demo
 
 
 ## Background
-We are going to investigate three newly published sequences of gonorrhea.
+We are going to investigate three recently published sequences of gonorrhea.
 
-The [SRR19310037](https://www.ncbi.nlm.nih.gov/sra/SRX15370312[accn]) and [SRR19310038](https://www.ncbi.nlm.nih.gov/sra/SRX15370313[accn]) were just added to NCBI's sequence read archive (SRA) on May 27, 2022!
-SRR19127720 is from early May.
-
-
+These short read data were shared to SRA in May of last year.
 We can get more information about where these lineages were sequences, and if they cary antimicrobial resistance (AMR) genes using the data in NCBI's Pathogen Database. (See the "AMR Genotype column")
 
 
@@ -41,7 +38,7 @@ NCBI places these sequences in a SNP tree, but that does not incorporate any unc
 https://www.ncbi.nlm.nih.gov/pathogens/tree/#Neisseria/PDG000000032.278/PDS000104772.5?accessions=PDT001307203.3
 
 
-We will add these sequences to an existing core genome alignment generated using [ParSNP](https://harvest.readthedocs.io/en/latest/content/parsnp.html), and Extensiphy, published [Field et al 2022](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13790) and the alignment stored in Dryad [data deposit](https://datadryad.org/stash/dataset/doi:10.6071/M38T0T)
+We will add these sequences to an existing core genome alignment for _Neisseria gonorrhea_ generated using [ParSNP](https://harvest.readthedocs.io/en/latest/content/parsnp.html), and Extensiphy, published [Field et al 2022](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13790) and the alignment stored in Dryad [data deposit](https://datadryad.org/stash/dataset/doi:10.6071/M38T0T)
 
 
 [Extensiphy](https://github.com/McTavishLab/extensiphy.git) is a tool for updating an existing multiple sequence alignment [Field et al. 2022](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13790). Extensiphy works by taking an input alignment, and assembling homologous loci from raw short read data.
@@ -49,7 +46,7 @@ We will add these sequences to an existing core genome alignment generated using
 For more info on how to use Extensiphy, see https://github.com/snacktavish/Mole2022/blob/master/TreeUpdating.md and https://github.com/McTavishLab/extensiphy/blob/main/tutorial/extensiphy_tutoria.md
 
 
-*I have run the assembly and subsampled the alignment from 1200 lineages to 30, and cut the sequences down to 100K BP to make inference faster for this demo. To see how to run this from raw data, see https://github.com/snacktavish/Mole2022/blob/master/TreeUpdating.md)*
+*I have run the full assembly and subsampled the alignment from 1200 lineages to 30, and cut the sequences down to 100K BP to make inference faster for this demo. To see how to run this from raw data, see https://github.com/snacktavish/Mole2022/blob/master/TreeUpdating.md)*
 
 The starting alignment is in neisseria_aln.fas.
 The updated alignment is in EP_demo/RESULTS/extended.aln 
