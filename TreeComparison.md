@@ -94,8 +94,8 @@ In order to do so, you need to map taxon names to unique identifiers.
 
 Get the tutorial folder using
 ```
-    git clone https://github.com/snacktavish/Mole2022.git
-    cd  Mole2022/tutorial
+    git clone https://github.com/snacktavish/Mole2023.git
+    cd  Mole2023/tutorial
 ```
 
 
