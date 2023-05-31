@@ -35,8 +35,7 @@ If you wanted to download the sequences directly from SRA you could use
     fastq-dump --split-files SRR19127720
 
 NCBI places these sequences in a SNP tree, but that does not incorporate any uncertainty, or a full phylogenetic analysis.
-https://www.ncbi.nlm.nih.gov/pathogens/tree/#Neisseria/PDG000000032.278/PDS000104772.5?accessions=PDT001307203.3
-
+https://www.ncbi.nlm.nih.gov/pathogens/tree/#Neisseria_gonorrhoeae/PDG000000032.340/PDS000136460.3?accessions=PDT001300765.1
 
 We will add these sequences to an existing core genome alignment for _Neisseria gonorrhea_ generated using [ParSNP](https://harvest.readthedocs.io/en/latest/content/parsnp.html), and Extensiphy, published [Field et al 2022](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13790) and the alignment stored in Dryad [data deposit](https://datadryad.org/stash/dataset/doi:10.6071/M38T0T)
 
