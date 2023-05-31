@@ -50,13 +50,12 @@ For more info on how to use Extensiphy, see https://github.com/snacktavish/Mole2
 The starting alignment is in neisseria_aln.fas.
 The updated alignment is in EP_demo/RESULTS/extended.aln 
 
-Estimate an ML tree using raxml
-
+Estimate an ML tree using iqtree
 
 Open it in figtree
 Root it with "ERR2525602" as an outgroup.
 
-The new taxa we have added were sampled in the last two months - whereas the existing tips are from 2019 or earlier.
+The new taxa we have added were sampled in 2022 - whereas the existing tips are from 2019 or earlier.
 
 **Q Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related in the ML tree?**
 
@@ -111,10 +110,9 @@ Because they are already aligned, we can just concateneate them to form an align
 
 We can then estimate a tree on this updated alignment - e.g. using RAxML (or any other phylogenetic inference software)
 
-    raxml-ng -msa combined_refs.fas -model GTR+G -prefix compare_references 
+    iqtree -s combined_refs.fas -m GTR --prefix compare_references
 
-Take a look at your ML tree in figtree. (what model would you use?)
-
+Take a look at your ML tree in figtree. 
 
 **Q Does changing the reference taxon change the phylogeny or inferences you would make from it?**
 
