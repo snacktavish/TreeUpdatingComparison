@@ -217,9 +217,9 @@ You can also pass ott ids into `get_synth_subtree.py` directly.
 The ids for each taxon from the 'turtle_iqtree_OTT.tre' tree are listed in 'data/turtle_tree_names.csv'. 
 Or you can search names in the search box at tree.opentreeoflife.org, and get the ott ids from there.
 
-For example, to see the relationships between Python (ott:675102), e.g. *Python regius*
-<img src="img/python.jpg" alt="drawing" width="200"/>, Podarcis (ott:937560), e.g. *Podarcis muralis* <img src="img/podarcis.jpg" alt="drawing" width="200"/>, 
-and *Anolis carolinenesis* (ott:705356) <img src="img/anolis.jpg" alt="drawing" width="200"/>  
+For example, to see the relationships between Python (ott:675102), e.g. *Python regius*, Podarcis (ott:937560), e.g. *Podarcis muralis* ,  
+and *Anolis carolinenesis* (ott:705356)  
+<img src="img/python.jpg" alt="drawing" width="200"/>, <img src="img/podarcis.jpg" alt="drawing" width="200"/>, <img src="img/anolis.jpg" alt="drawing" width="200"/> .
 
 try running:
 ```
