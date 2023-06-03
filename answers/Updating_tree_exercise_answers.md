@@ -21,7 +21,7 @@ These seem to be from endemic varaition.
 Yes! Many bases are different.
 
 
-**Q** *Does changing the reference taxon change the sequences?*
+**Q Does changing the reference taxon change the phylogeny or inferences you would make from it?**
 
-Yes
+Nope!
 
