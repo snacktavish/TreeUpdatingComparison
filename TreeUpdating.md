@@ -1,4 +1,4 @@
-# Data Set assembly  
+# Updating Phylogenies and Reference Bias
 Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
 
 
@@ -8,7 +8,7 @@ We will compare sequences assembled from short read data using a few different p
 
 
 Log into jetstream and cd into the directory for this example.
-and update the files by pulling form github:
+and update the files by pulling from github:
     
     cd moledata/Mole2023/Neisseria_demo
     git pull
@@ -85,7 +85,7 @@ The reference that you choose can affect your consensus sequence calling, and th
 The consensus aligned sequence for each run is saved in combine_and_infer/seqname_align.fas (Where 'seqname' is the filename stub of the reads).
 
 
-To compare sequences, you can concatenate them, and look at them in your preferred alignmenmt viewer.
+To compare sequences, you can concatenate them, and look at them in your preferred alignment viewer.
 
   *python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas*
 
@@ -95,7 +95,7 @@ To compare sequences, you can concatenate them, and look at them in your preferr
 
 We can then combine the previous extended alignment with these new, slightly different consensus sequence estimates.
 
-Because these sequences are already aligned, we can just concatenate them to form an alignment that includes both our original consesus sequences for these taxa, and these new inferences.
+Because these sequences are already aligned, we can just concatenate them to form an alignment that includes both our original consensus sequences for these taxa, and these new inferences.
 
 
     cat EP_demo/RESULTS/extended.aln EP_demo_alternate_ref/combine_and_infer/SRR19310037_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19310038_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19127720_align.fas > combined_refs.fas
