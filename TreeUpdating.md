@@ -71,12 +71,6 @@ The majority rule consensus tree is in the file `bootstrap_results/RAxML_biparti
 **Q What do these relationships suggest about if this is a new outbreak cluster, or endemic variation?**
 
 
-Many of the common antimicrobial resistance (AMR) genes are horizontally transferred, so close relatives can have different AMR genes and phenotypes.
-Look up the two closest relatives of the new lineage with known AMR genes in https://www.ncbi.nlm.nih.gov/pathogens/
-
-**Q Do these three lineages share the same known resistance genes?**
-
-
 ## Using an alternate reference
 
 The reference that you choose can affect your consensus sequence calling, and therefore your phylogenetic inference. Lets see what happens if we try assembling these new taxa, but using the outgroup as a reference instead.

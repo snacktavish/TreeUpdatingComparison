@@ -91,10 +91,10 @@ You can use the download a subtree of interest directly from the website.
 It is often more useful to access the pruned subtree for just the taxa you are interested in.
 In order to do so, you need to map taxon names to unique identifiers.
 
-Get the tutorial folder using
+Cd into the tutorial folder
+
 ```
-    git clone https://github.com/snacktavish/Mole2023.git
-    cd  Mole2023/tutorial
+    cd  moledata/Mole2023/tree_comparison_tutorial
 ```
 
 
@@ -111,23 +111,25 @@ We will look up a tree of the hydrozoan jellyfish species found right around Woo
 The names of the taxa you will search for this tutorial were
 dowloaded from GBIF (GBIF.org (27 May 2022) GBIF Occurrence Download https://doi.org/10.15468/dl.gcmn6n).
 
+The names are in the file `tree_comparison_tutorial/data/WH_hydrozoan_names.txt`  
+You can copy it from jetstream, or download it directly to your laptop from https://github.com/snacktavish/Mole2023/blob/master/tree_comparison_tutorial/data/WH_hydrozoan_names.txt)
+
 
 *Try this*
-  * Click on "add names", and upload the names file. (tutorial/data/WH_hydrozoan_names.txt)  
-  (you can dowload it directly to you laptop from )
+  * Click on "add names", and upload the names file. 
   * In the mapping options section,
     - select 'Cnidarians' to narrow down the possibilities and speed up mapping
   * Click "Map selected names"
 
 Exact matches will show up in green, and can be accepted by clicking "accept exact matches".
 
-A few taxa may still show suggested names. Click through to the taxonomy, and look at the synonyms.
+A few taxa may still show suggested names. Click through to the taxonomy, and you will see that the name from the GBIF data is listed as a synonym.
 
 Once you have accepted names for each of the taxa, click "save nameset". 
 
 *Make sure your mappings were saved! If you don't 'accept' matches, they don't download.*
 
-Download it to your laptop.
+Download the zip file to your laptop.
 Extract the files.
 Take a look at the human readable version (output/main.csv).
 
@@ -165,7 +167,7 @@ If you had trouble with that step you can use `backup_output/WH_jellies.csv` as 
 The argument 'output' sets the first part of the output filename.
 
 ```
-    $ python get_synth_subtree.py --input-file WH_jellies.csv --output WH_jellyfish_synth
+     python get_synth_subtree.py --input-file WH_jellies.csv --output WH_jellyfish_synth
 ```
 
 This script will write two files out to your current working directory - 
@@ -177,7 +179,7 @@ Open the synthetic subtree in figtree, and the citations in a text viewer.
 **Q** *Are any of the genera non-monophyletic? What one(s)?*
 
 
-**Q** *Look at this genus/genera in the tree viewer. What studies break the monophyly of each taxon?*
+**Q** *Look at this genus/genera in the tree viewer (tree.opentreeoflife.org). What studies break the monophyly of each taxon?*
 
 
 **Q** *Is there conflict among the input sources? Does the alternate resolution demonstrate reciprocal monophyly of these genera?*
