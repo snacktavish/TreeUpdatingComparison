@@ -10,6 +10,10 @@ Maronna 2016, Cuhna 2017, Leclere 2009
 
 There is conflict across the different Cuhna trees, but still not reciprocal monophyly.
 
+**Q** *We lost a taxon! Which one? Why?*
+
+The genus Taeniopygia is not monophyletic! According to Jetz et al 2012 https://tree.opentreeoflife.org/opentree/argus/ottol@708325/Taeniopygia
+
 **Q** *Are the relationships in 'turtle_iqtree_OTT.tre' different than the relationships from OpenTree?*
 
 Yes
@@ -17,16 +21,18 @@ Yes
 
 **Q** *How so?*  
 
-OpenTree: ((Python,Anolis carolinensis), Podarcis) 
-Iqtree: ((Anolis carolinensis, Podarcis), Python)
-
 
 OpenTree: (((Alligator, Caiman),(Gallus, Taeniopygius)),(((Emys, Chelonius), Caretta), Phyrnops));
 Iqtree: (((Alligator, Caiman),(((Emys, Chelonius), Caretta), Phyrnops)),(Gallus, Taeniopygius));
 
+
+OpenTree: ((Python, Anolis carolinensis), Podarcis) 
+Iqtree: ((Anolis carolinensis, Podarcis), Python)
+
+
 **Q** *Is there anything surprisng about these relationships? (The answer probably depends on your pre-existing herp phylogeny knowledge :P)*
 
-'lizards' are not a monophyletic group!
+'lizards' are not a monophyletic group! (I was surprised :P)
 
 **Q** What are the maximum and minimum age estimates for the root of this three taxon tree?
 
@@ -80,6 +86,7 @@ Cassiopiea
 
 
 **Q** *Which genus is not in the output tree? Why not?*  
+
 Rhopilema  
 The genus is not monophyletic  
 

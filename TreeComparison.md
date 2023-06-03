@@ -98,7 +98,6 @@ Cd into the tutorial folder
 ```
 
 
-
 One of the key challenges of comparing trees across studies is minor differences in names and naming.
 
 A solution to this, is mapping taxon names to unique identifiers using the Open Tree Taxonomic Name Resolution Service (TNRS). There are a few options to use this service including via the API, or the browser based bulk name mapping. 
@@ -204,6 +203,7 @@ Instead of including the name and the ott id on each, tip, we will can download 
 ### Compare two trees visually
 Open the synthetic tree (turtle_synth.tre) and the example inferred tree (turtle_iqtree_OTT.tre) in figtree.
 
+**Q** *We lost a taxon! Which one? Why?*
 
 **Q** *Are the relationships in 'turtle_iqtree_OTT.tre' different than the relationships from OpenTree?*
 
