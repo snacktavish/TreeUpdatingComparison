@@ -97,7 +97,7 @@ Because these sequences are already aligned, we can just concatenate them to for
 
 We can then estimate a tree on this updated alignment - e.g. using RAxML (or any other phylogenetic inference software)
 
-    iqtree -s combined_refs.fas -m TVM+F+R2 --prefix compare_references
+    iqtree2 -s combined_refs.fas -m TVM+F+R2 --prefix compare_references
 
 Take a look at your ML tree in figtree. 
 
