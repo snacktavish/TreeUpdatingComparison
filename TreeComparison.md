@@ -1,5 +1,5 @@
-# Comparing phylogenetic trees, gathering date estimates
-### Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
+# Comparing phylogenetic trees, gathering date estimates  
+Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
 
 
 There any many ways to generate phylogenetic trees!  
@@ -21,8 +21,7 @@ The Open Tree of Life (https://opentreeoflife.github.io/) is a project that unti
 ![](img/otol_logo.png)  
 
 
-This tree currently includes 2.7 million tips.
-65,000 of these taxa have relationships inferred from phylogeny.
+This tree currently includes 2.4 million tips, and is based on 1,330 published studies which include 112,890 unique tips.
 
 The synthetic tree uses a combined taxonomy across a large number of taxonomy resources with evolutionary estimates from published phylogenetic studies.
 https://opentreeoflife.github.io/browse/

@@ -1,5 +1,5 @@
-# Data Set assembly
-### Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
+# Data Set assembly  
+Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
 
 
 ## Description
@@ -7,10 +7,11 @@
 We will compare sequences assembled from short read data using a few different parameter choices, and assess accuracy of the consensus sequence, and of the phylogenetic inferences.
 
 
-Clone the exercise repo and cd into the directory for this example if you havn't aleady done so:
-
-    git clone https://github.com/snacktavish/Mole2023.git
-    cd Mole2023/Neisseria_demo
+Log into jetstream and cd into the directory for this example.
+and update the files by pulling form github:
+    
+    cd moledata/Mole2023/Neisseria_demo
+    git pull
 
 
 ## Background
@@ -50,18 +51,17 @@ For more info on how to use Extensiphy, see https://github.com/snacktavish/Mole2
 The starting alignment is in neisseria_aln.fas.
 The updated alignment is in EP_demo/RESULTS/extended.aln 
 
-Estimate an ML tree using iqtree
-
-Open it in figtree
-Root it with "ERR2525602" as an outgroup.
+ * Estimate an ML tree using iqtree
+ * Open it in figtree
+ * Root it with "ERR2525602" as an outgroup.
 
 The new taxa we have added were sampled in 2022 - whereas the existing tips are from 2019 or earlier.
 
-**Q Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related in the ML tree?**
+**Q Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related to each other in the ML tree?**
 
 You can have EP automatically bootstrap the tree as well by adding '-b ON' to the arguments.
 
-Bootstrapping takes a little while - so I have run it for you, and put the output files in 'EP_demo/bootstrap_results/'
+Bootstrapping takes a little while - so I have run it for you (using RAxML), and put the output files in 'EP_demo/bootstrap_results/'
 
 The majority rule consensus tree is in the file `bootstrap_results/RAxML_bipartitions.majority_rule_bootstrap_consensus
 `
@@ -85,9 +85,9 @@ The reference that you choose can affect your consensus sequence calling, and th
 The consensus aligned sequence for each run is saved in combine_and_infer/seqname_align.fas (Where 'seqname' is the filename stub of the reads).
 
 
-In your pre-workshop exercises, you developed a script to compare sequences in fasta files.
+To compare sequences, you can concatenate them, and look at them in your preferred alignmenmt viewer.
 
-Use that script now to investigate how these sequences differ between assemblies! (or concatenate them, and open them in seqview, and eyeball it)
+  *cat EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas > [id]_combined.fas*
 
 
 **Q Does changing the reference taxon change the inferred sequences?**
