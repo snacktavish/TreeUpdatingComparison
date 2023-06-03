@@ -87,13 +87,10 @@ The consensus aligned sequence for each run is saved in combine_and_infer/seqnam
 
 To compare sequences, you can concatenate them, and look at them in your preferred alignmenmt viewer.
 
-  *cat EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas > [id]_combined.fas*
+  *python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas*
 
 
 **Q Does changing the reference taxon change the inferred sequences?**
-
-
-**Q What do the differences in the sequences consist of (in terms of different base calls)?**
 
 
 We can then combine the previous extended alignment with these new, slightly different consensus sequence estimates.
@@ -102,7 +99,7 @@ Open each of the consensus sequences from the alternate reference in a text edit
 
 e.g. change ">SRR19310037" to  ">SRR19310037_alt"
 
-Because they are already aligned, we can just concateneate them to form an alignment that includes both our original consesuses for these taxa, and these new inferences.
+Because they are already aligned, we can just concatenate them to form an alignment that includes both our original consesus sequences for these taxa, and these new inferences.
 
 
     cat EP_demo/RESULTS/extended.aln EP_demo_alternate_ref/combine_and_infer/SRR19310037_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19310038_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19127720_align.fas > combined_refs.fas
@@ -110,7 +107,7 @@ Because they are already aligned, we can just concateneate them to form an align
 
 We can then estimate a tree on this updated alignment - e.g. using RAxML (or any other phylogenetic inference software)
 
-    iqtree -s combined_refs.fas -m GTR --prefix compare_references
+    iqtree -s combined_refs.fas -m TVM+F+R2 --prefix compare_references
 
 Take a look at your ML tree in figtree. 
 
