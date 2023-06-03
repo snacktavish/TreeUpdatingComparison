@@ -104,3 +104,6 @@ Take a look at your ML tree in figtree.
 **Q Does changing the reference taxon change the phylogeny or inferences you would make from it?**
 
 
+## Answers
+The answers to the questions are posted at:  
+https://github.com/snacktavish/Mole2023/blob/master/answers/Updating_tree_exercise_answers.md
