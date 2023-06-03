@@ -95,11 +95,7 @@ To compare sequences, you can concatenate them, and look at them in your preferr
 
 We can then combine the previous extended alignment with these new, slightly different consensus sequence estimates.
 
-Open each of the consensus sequences from the alternate reference in a text editor, and rename them to reflect that you used an alternate reference.
-
-e.g. change ">SRR19310037" to  ">SRR19310037_alt"
-
-Because they are already aligned, we can just concatenate them to form an alignment that includes both our original consesus sequences for these taxa, and these new inferences.
+Because these sequences are already aligned, we can just concatenate them to form an alignment that includes both our original consesus sequences for these taxa, and these new inferences.
 
 
     cat EP_demo/RESULTS/extended.aln EP_demo_alternate_ref/combine_and_infer/SRR19310037_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19310038_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19127720_align.fas > combined_refs.fas
