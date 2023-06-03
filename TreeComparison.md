@@ -309,7 +309,7 @@ Look in the synthetic tree, to assess what is happened.
 
 
 
-## Answers to the quetsions!
+## Answers to the questions
 https://github.com/snacktavish/Mole2023/blob/master/answers/OpenTree_exercise_answers.md
 (although some answers could change in future, as the OpenTree synthetic tree is updated with new phylogenetic data)
 
