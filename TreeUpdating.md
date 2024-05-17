@@ -107,4 +107,4 @@ Take a look at your ML tree in figtree.
 
 ## Answers
 The answers to the questions are posted at:  
-https://github.com/snacktavish/Mole2023/blob/master/answers/Updating_tree_exercise_answers.md
+https://github.com/snacktavish/TreeUpdatingComparison/blob/master/answers/Updating_tree_exercise_answers.md
