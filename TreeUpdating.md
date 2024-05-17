@@ -10,7 +10,7 @@ We will compare sequences assembled from short read data using a few different p
 Log into jetstream and cd into the directory for this example.
 and update the files by pulling from github:
     
-    cd moledata/Mole2023/Neisseria_demo
+    cd moledata/TreeUpdatingComparison/Neisseria_demo
     git pull
 
 
