@@ -94,7 +94,7 @@ In order to do so, you need to map taxon names to unique identifiers.
 Cd into the tutorial folder
 
 ```
-    cd  moledata/Mole2023/tree_comparison_tutorial
+    cd  moledata/TreeUpdatingComparison/tree_comparison_tutorial
 ```
 
 
@@ -111,7 +111,7 @@ The names of the taxa you will search for this tutorial were
 dowloaded from GBIF (GBIF.org (27 May 2022) GBIF Occurrence Download https://doi.org/10.15468/dl.gcmn6n).
 
 The names are in the file `tree_comparison_tutorial/data/WH_hydrozoan_names.txt`  
-You can copy it from jetstream, or download it directly to your laptop from https://github.com/snacktavish/Mole2023/blob/master/tree_comparison_tutorial/data/WH_hydrozoan_names.txt)
+You can copy it from jetstream, or download it directly to your laptop from https://github.com/snacktavish/TreeUpdatingComparison/blob/master/tree_comparison_tutorial/data/WH_hydrozoan_names.txt)
 
 
 *Try this*
@@ -310,7 +310,7 @@ Look in the synthetic tree, to assess what is happened.
 
 
 ## Answers to the questions
-https://github.com/snacktavish/Mole2023/blob/master/answers/OpenTree_exercise_answers.md
+https://github.com/snacktavish/TreeUpdatingComparison/blob/master/answers/OpenTree_exercise_answers.md
 (although some answers could change in future, as the OpenTree synthetic tree is updated with new phylogenetic data)
 
 ## Choose your own adventure!
