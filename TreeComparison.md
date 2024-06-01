@@ -94,7 +94,7 @@ In order to do so, you need to map taxon names to unique identifiers.
 Cd into the tutorial folder
 
 ```
-    cd  moledata/TreeUpdatingComparison/tree_comparison_tutorial
+    cd  moledata/Mole2024/tree_comparison_tutorial
 ```
 
 
