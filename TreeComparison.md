@@ -286,7 +286,7 @@ There is also an R-package to gather date information and estimate dated trees, 
 
 
 
-##  Exercise
+##  Optional Exercise
 <img src="img/mastigias.jpg" alt="drawing" width="400"/>  
 
 A student is studying jellyfish that live in Jellyfish Lake in Palau.   
