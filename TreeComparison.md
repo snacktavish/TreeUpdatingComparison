@@ -115,6 +115,7 @@ You can copy it from jetstream, or download it directly to your laptop from http
 
 
 *Try this*
+  * Go to https://tree.opentreeoflife.org/curator/tnrs/
   * Click on "add names", and upload the names file. 
   * In the mapping options section,
     - select 'Cnidarians' to narrow down the possibilities and speed up mapping
