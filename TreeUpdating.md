@@ -77,7 +77,7 @@ The reference that you choose can affect your consensus sequence calling, and th
 The consensus aligned sequence for each run is saved in combine_and_infer/seqname_align.fas (Where 'seqname' is the filename stub of the reads).
 
 
-To compare sequences, you can concatenate them, and look at them in your preferred alignment viewer.
+To compare sequences, you can concatenate them, and look at them in your preferred alignment viewer. I like to use [Seaview](https://doua.prabi.fr/software/seaview).
 
   *python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas*
 
