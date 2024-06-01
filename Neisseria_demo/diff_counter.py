@@ -68,6 +68,4 @@ def compare_basecalls(seqfi1, seqfi2, unambiguous_only=False, outfilename="diffe
     print("Of those {d} sites, {ng} are not a gap or an ambiguity code in one taxon".format(d=len(diff_dict), ng=not_gap_diff))
 
 
-
-
-print(compare_basecalls(sample1,sample2))
+compare_basecalls(sample1,sample2)
