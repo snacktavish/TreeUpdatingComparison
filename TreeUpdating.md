@@ -27,7 +27,7 @@ We can get more information about where these lineages were sequences, and if th
 **Q Do any of these lineages have known anti-microbial resistance genes?**
 
 
-If you wanted to download the sequences directly from SRA you could use
+If you wanted to download the sequences directly from SRA you could use  
 *Don't run these at the workshop (they wont work anyways unless you have installed SRA toolkit)*
 
     fastq-dump --split-files SRR19310037
