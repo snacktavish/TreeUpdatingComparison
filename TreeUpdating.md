@@ -79,7 +79,9 @@ The consensus aligned sequence for each run is saved in combine_and_infer/seqnam
 
 To compare sequences, you can concatenate them, and look at them in your preferred alignment viewer. I like to use [Seaview](https://doua.prabi.fr/software/seaview).
 
-  *python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas*
+I have also included a small python script that counts the differences between aligned sequences.  
+
+    python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas*
 
 
 **Q Does changing the reference taxon change the inferred sequences?**
