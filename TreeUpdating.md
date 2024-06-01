@@ -7,9 +7,10 @@ Work in progress - please contact ejmctavish@ucmerced.edu with any issues or que
 We will compare sequences assembled from short read data using a few different parameter choices, and assess accuracy of the consensus sequence, and of the phylogenetic inferences.
 
 
-Log into jetstream and cd into the directory for this example:
+Log into jetstream and cd into the directory for this example, and update the files using git:
     
     cd moledata/Mole2024/Neisseria_demo
+    git pull
 
 
 
