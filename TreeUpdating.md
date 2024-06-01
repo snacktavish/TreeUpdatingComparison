@@ -90,7 +90,7 @@ I have also included a small python script that counts the differences between a
 
 We can then combine the previous extended alignment with these new, slightly different consensus sequence estimates.
 
-Because these sequences are already aligned, we can just concatenate them to form an alignment that includes both our original consensus sequences for these taxa, and these new inferences.
+Because these sequences are already aligned, we can just concatenate them to form an expanded alignment that includes both our original consensus sequences for these taxa, and these new inferences.
 
 
     cat EP_demo/RESULTS/extended.aln EP_demo_alternate_ref/combine_and_infer/SRR19310037_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19310038_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19127720_align.fas > combined_refs.fas
