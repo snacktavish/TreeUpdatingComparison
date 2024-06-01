@@ -52,19 +52,14 @@ For more info on how to use Extensiphy, see https://github.com/snacktavish/Mole2
 The starting alignment is in neisseria_aln.fas.
 The updated alignment is in EP_demo/RESULTS/extended.aln 
 
- * Estimate an ML tree for the extended alignment using iqtree
+ * Estimate an ML tree for the extended alignment using iqtree. Run 1000 ultrafast bootstrap replicates using -B 1000
  * Open it in figtree
  * Root it with "ERR2525602" as an outgroup.
 
 The new taxa we have added were sampled in 2022 - whereas the existing tips are from 2019 or earlier.
 
 **Q Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related to each other in the ML tree?**
-
-Bootstrapping takes a little while - so I have run it for you (using RAxML, because it was from an earlier analysis), and put the output files in 'EP_demo/bootstrap_results/'
-
-The majority rule consensus tree is in the file `bootstrap_results/RAxML_bipartitions.majority_rule_bootstrap_consensus
 `
-
 **Q Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related in the bootstrap consensus tree?**
 
 **Q What do these relationships suggest about if this is a new outbreak cluster, or endemic variation?**
