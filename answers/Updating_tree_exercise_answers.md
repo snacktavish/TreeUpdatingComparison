@@ -18,7 +18,7 @@ These seem to be from endemic varaition.
 
 **Q** *Does changing the reference taxon change the sequences?*
 
-Yes! 119 bases are different calls, and there are many gaps and or ambiguities that are not shared.
+Yes! 113 - 141 bases are different calls for SRR19127720, and there are many (over 47,000!) gaps and or ambiguities that are not shared.
 
 **Q Does changing the reference taxon change the phylogeny or inferences you would make from it?**
 
