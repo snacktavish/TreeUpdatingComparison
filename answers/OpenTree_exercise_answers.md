@@ -60,6 +60,7 @@ http://dx.doi.org/10.1002/jez.b.22642
 
 Yes - root is 163-209 MYA, internal node is 160-198 Mya
 
+-----Optional Section ----- 
 
 **Q** *What are the relationships among these taxa?*  
 
