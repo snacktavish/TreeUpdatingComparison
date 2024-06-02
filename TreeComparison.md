@@ -55,7 +55,7 @@ The properties panel contains:
   * information about how to download a Newick representation of the subtree
       rooted at that node, and
   * information about taxonomies and phylogenies that support or disagree with
-    that node. (e.g. https://tree.opentreeoflife.org/opentree/opentree14.7@mrcaott3089ott32977/Corytophaninae--Leiocephalus)
+    that node. (e.g. https://tree.opentreeoflife.org/opentree/opentree14.9@mrcaott3089ott32977/Corytophaninae--Leiocephalus)
 
 Clicking on "**ⓘ** Hide Properties" will hide the panel so that you can see more
     of the tree.
