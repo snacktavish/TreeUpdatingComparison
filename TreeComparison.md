@@ -155,9 +155,9 @@ We will use wrappers available in the python package [OpenTree](https://github.c
 
 Install the opentree python package in a virtual environment:
 ```
-	python3 -m venv treecomp
-	. treecomp/bin/activate
-    python3 -m pip install opentree
+python3 -m venv treecomp
+. treecomp/bin/activate
+python3 -m pip install opentree
 ```
 
 
