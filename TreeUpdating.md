@@ -9,7 +9,7 @@ We will compare sequences assembled from short read data using a few different p
 
 Log into jetstream and cd into the directory for this example, and update the files using git:
     
-    cd moledata/Mole2024/Neisseria_demo
+    cd moledata/TreeUpdatingComparison/Neisseria_demo
     git pull
 
 
@@ -95,7 +95,7 @@ Because these sequences are already aligned, we can just concatenate them to for
 
 We can then estimate a tree on this updated alignment - e.g. using RAxML (or any other phylogenetic inference software)
 
-    iqtree2 -s combined_refs.fas -m TVM+F+R2 --prefix compare_references
+    iqtree3 -s combined_refs.fas -m TVM+F+R2 --prefix compare_references
 
 Take a look at your ML tree in figtree. 
 
