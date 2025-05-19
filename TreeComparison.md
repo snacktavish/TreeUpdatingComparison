@@ -94,7 +94,7 @@ In order to do so, you need to map taxon names to unique identifiers.
 Cd into the tutorial folder
 
 ```
-    cd  moledata/TreeUpdatingComparison/tree_comparison_tutorial
+cd  moledata/TreeUpdatingComparison/tree_comparison_tutorial
 ```
 
 
@@ -171,7 +171,7 @@ If you had trouble with that step you can use `backup_output/WH_jellies.csv` as 
 The argument 'output' sets the first part of the output filename.
 
 ```
-    python get_synth_subtree.py --input-file WH_jellies.csv --output WH_jellyfish_synth
+python get_synth_subtree.py --input-file WH_jellies.csv --output WH_jellyfish_synth
 ```
 
 This script will write two files out to your current working directory - 
@@ -202,7 +202,7 @@ You can get a comparison tree from OpenTree using the mapped names file, tutoria
 Instead of including the name and the ott id on each, tip, we will can download it with the names.
 
 ```
-    python get_synth_subtree.py --input-file data/turtle_tree_names.csv --label-format name --output turtle_synth
+python get_synth_subtree.py --input-file data/turtle_tree_names.csv --label-format name --output turtle_synth
 ```
 
 ### Compare two trees visually
@@ -229,7 +229,7 @@ and *Anolis carolinenesis* (ott:705356)
 
 try running:
 ```
-    python get_synth_subtree.py --ott-ids 970153 675102 937560  --output lizards
+python get_synth_subtree.py --ott-ids 970153 675102 937560  --output lizards
 ```
 
 
@@ -242,11 +242,11 @@ The output tree will be written to lizards.tre.
 
 You can seach the corpus of trees based on taxon name or taxon id
 ```
-    python find_trees.py "Homarus americanus" --property ot:ottTaxonName
+python find_trees.py "Homarus americanus" --property ot:ottTaxonName
 ```
 
 ```
-    python find_trees.py 937560 --property ot:ottId
+python find_trees.py 937560 --property ot:ottId
 ```
 
 ## Getting date estimates for nodes
@@ -261,7 +261,7 @@ The dates API will return the ages of internal nodes of input trees that align w
 e.g.
 
 ```
-   curl -X GET https://dates.opentreeoflife.org/v4/dates/synth_node_age/ott675102
+curl -X GET https://dates.opentreeoflife.org/v4/dates/synth_node_age/ott675102
 ```
 
 
@@ -269,7 +269,7 @@ The python script get_dates.py translates the short form citations into their fu
 It outputs the tree if you input a list of ids, and a date file with age estimates and citations for nodes.
 
 ```
-   python  get_dates.py --ott-ids 970153 675102 937560 --output lizard_ages
+python  get_dates.py --ott-ids 970153 675102 937560 --output lizard_ages
 ```
 
 Open 'lizard_ages_dates.txt'.
@@ -283,7 +283,7 @@ Open 'lizard_ages_dates.txt'.
 You can also gather node age data for a single taxon.
 
 ```
-   python  get_dates.py --ott-ids 675102 --output python_ages
+python  get_dates.py --ott-ids 675102 --output python_ages
 ```
 
 There is also an R-package to gather date information and estimate dated trees, Datelife, available online at (datelife.opentreeoflife.org).
