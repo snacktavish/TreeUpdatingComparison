@@ -237,7 +237,7 @@ python get_synth_subtree.py --ott-ids 970153 675102 937560  --output lizards
 
 The output tree will be written to lizards.tre.
 
-**Q** *Is there anything surprisng about these relationships? (The answer probably depends on your pre-existing herp phylogeny knowledge :P)*
+**Q** *Is there anything surprising about these relationships? (The answer probably depends on your pre-existing herp phylogeny knowledge :P)*
 
 ## Finding published trees that have your taxon or taxa of interest:
 
