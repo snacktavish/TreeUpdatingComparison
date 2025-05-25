@@ -349,12 +349,15 @@ https://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html
 
 <img src="img/rotlrgbif.png" alt="drawing" width="400"/>  
 
+### Working on birds? Check out clootl!
+Complete bird trees taxonomically matched to large scale trait and location data sets.
+
+https://github.com/eliotmiller/clootl/blob/master/examples/avonet.md
+
+<img src="https://github.com/eliotmiller/clootl/blob/master/examples/avonet_files/figure-gfm/unnamed-chunk-5-1.png" alt="drawing" width="400"/>  
 ### Unifying geographic and phylogenetic data using python-opentree and Jupyter notebooks
 
-
 https://github.com/McTavishLab/jupyter_OpenTree_tutorials/blob/master/notebooks/DEMO_OpenTree.ipynb
-
-
 
 ### Zoom around
 
