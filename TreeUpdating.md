@@ -59,9 +59,9 @@ The updated alignment is in EP_demo/RESULTS/extended.aln
 The new taxa we have added were sampled in 2022 - whereas the existing tips are from 2019 or earlier.
 
 **Q Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related to each other in the ML tree?**
-`Bootstrapping takes a little while - so I have run it for you (using RAxML, because it was from an earlier analysis), and put the output files in 'EP_demo/bootstrap_results/'
+Bootstrapping takes a little while - so I have run it for you (using RAxML, because it was from an earlier analysis), and put the output files in 'Neisseria_demo/bootstrap_results/'
 
-The majority rule consensus tree is in the file `bootstrap_results/RAxML_bipartitions.majority_rule_bootstrap_consensus
+The majority rule consensus tree is in the file `bootstrap_results/RAxML_bipartitions.majority_rule_bootstrap_consensus`
 **Q Are our new sequences (SRR19310037, SRR19310038, and SRR19127720) closely related in the bootstrap consensus tree?**
 
 **Q What do these relationships suggest about if this is a new outbreak cluster, or endemic variation?**
@@ -77,10 +77,24 @@ The consensus aligned sequence for each run is saved in combine_and_infer/seqnam
 
 To compare sequences, you can concatenate them, and look at them in your preferred alignment viewer. I like to use [Seaview](https://doua.prabi.fr/software/seaview).
 
-I have also included a small python script that counts the differences between aligned sequences. To run, replace '[id]_align.fas' with the names of files you want to compare.
+I have also included a small python script that counts the differences between aligned sequences. To run, replace '[id]_align.fas' with the names of files you want to compare (_e.g._ `SRR19310038_align.fas`).
 
     python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas*
 
+You can run three instances of this code, once for each file, or you can practice your bash skills a little bit and try to do all of them with one command. Take a look at [this bash script cheatsheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet) and consider how to write a for loop to run the command above for each file. Then reveal the block below to check if you were correct!
+
+<details>
+  <summary>Check the command</summary>
+    
+```
+for s in SRR19127720 SRR19310037 SRR19310038; do
+  python diff_counter.py EP_demo/combine_and_infer/${s}_align.fas EP_demo_alternate_ref/combine_and_infer/${s}_align.fas
+done
+```
+  
+</details>
+
+You can run this as-is on the command-line, or you can add it to a script (_e.g._ `run_diff.sh`) and run it with `bash run_diff.sh`.
 
 **Q Does changing the reference taxon change the inferred sequences?**
 
