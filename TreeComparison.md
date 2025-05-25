@@ -163,15 +163,15 @@ python3 -m pip install opentree
 
 
 ### Getting a subtree
-There is a python script in the tutorials folder 'get_synth_subtree.py'. 
+There is a python script in the `tree_comparison_tutorial` folder 'get_synth_subtree.py'. 
 
 This script uses the taxon ids in the file `WH_jellies.csv` you transferred from your computer to get a synthetic tree from the OpenTree APIs. 
 If you had trouble with that step you can use `backup_output/WH_jellies.csv` as the input file instead.
 
-The argument 'output' sets the first part of the output filename.
+The argument 'output' sets the first part of the output filename. 
 
 ```
-python get_synth_subtree.py --input-file WH_jellies.csv --output WH_jellyfish_synth
+python get_synth_subtree.py --input-file data/WH_jellies.csv --output WH_jellyfish_synth
 ```
 
 This script will write two files out to your current working directory - 
@@ -198,8 +198,10 @@ In order to make comparisons about statements that two different trees are makin
 I have generated a tree file for you 'turtle_iqtree_OTT.tre' from an IQTtree excercise from a previous year of this course (http://www.iqtree.org/workshop/molevol2019), and labelled it with standardized taxon name labels. 
 This was an example data set specifically chosen to be a challenging inference problem, so there are some questions about if the inferred relationships are correct.
 
-You can get a comparison tree from OpenTree using the mapped names file, tutorial/data/turtle_tree_names.csv
-Instead of including the name and the ott id on each, tip, we will can download it with the names.
+You can get a comparison tree from OpenTree using the mapped names file, `tutorial/data/turtle_tree_names.csv`.
+Instead of including the name and the ott id on each tip we can download it with the names.
+
+**Note:** Remember that each time you'd like to run `get_synth_subtree.py` after exiting the cluster, you must restart the `treecomp` environment we created above (_i.e._ run `. treecomp/bin/activate`).
 
 ```
 python get_synth_subtree.py --input-file data/turtle_tree_names.csv --label-format name --output turtle_synth
