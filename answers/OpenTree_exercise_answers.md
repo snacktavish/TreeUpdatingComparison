@@ -22,7 +22,7 @@ Yes
 **Q** *How so?*  
 
 
-OpenTree: (((Alligator, Caiman),(Gallus, Taeniopygius)),(((Emys, Chelonius), Caretta), Phyrnops));
+OpenTree: (((Alligator, Caiman),(Gallus, Taeniopygius)),(((Emys, Chelonius), Caretta), Phyrnops));  
 Iqtree: (((Alligator, Caiman),(((Emys, Chelonius), Caretta), Phyrnops)),(Gallus, Taeniopygius));
 
 
