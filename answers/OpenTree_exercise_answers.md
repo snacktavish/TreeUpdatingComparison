@@ -4,11 +4,11 @@ Laomedea, Obelia, Edwardsia
 
 **Q** *Look at this genus/genera in the tree viewer. What studies break the monophyly of each taxon?*
 
-Maronna 2016, Cuhna 2017, Leclere 2009
+Maronna 2016, Cuhna 2017, Leclere 2009, Rodriguez 2014
 
 **Q** *Is there conflict among the input sources? Does the alternate resolution demonstrate reciprocal monophyly?*
 
-There is conflict across the different Cuhna trees, but still not reciprocal monophyly.
+There is conflict across the different Cunha trees, but still not reciprocal monophyly.
 
 **Q** *We lost a taxon! Which one? Why?*
 
@@ -30,7 +30,7 @@ OpenTree: ((Python, Anolis carolinensis), Podarcis)
 Iqtree: ((Anolis carolinensis, Podarcis), Python)
 
 
-**Q** *Is there anything surprisng about these relationships? (The answer probably depends on your pre-existing herp phylogeny knowledge :P)*
+**Q** *Is there anything surprising about these relationships? (The answer probably depends on your pre-existing herp phylogeny knowledge :P)*
 
 'lizards' are not a monophyletic group! (I was surprised :P)
 
@@ -47,18 +47,17 @@ Roquet, C., Lavergne, S., & Thuiller, W. (2014). One Tree to Link Them All: A Ph
 http://dx.doi.org/10.1371/currents.tol.5102670fff8aa5c918e78f5592790e48
 
 
-Min age is:
-Age: 163.041626 Myr
-Study: ot_307@tree2 
-https://tree.opentreeoflife.org/curator/study/view/ot_307?tab=trees&tree=tree2
-Wright, April M., Kathleen M. Lyons, Matthew C. Brandley, David M. Hillis. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. Journal of Experimental Zoology Part B: Molecular and Developmental Evolution 324 (6): 504-516
-http://dx.doi.org/10.1002/jez.b.22642
+Min age is
+Age: 162.212478 Myr
+Study: ot_2025@tree1
+https://tree.opentreeoflife.org/curator/study/view/ot_2025?tab=trees&tree=tree1
+Uyeda, J. C., Pennell, M. W., Miller, E. T., Maia, R., & McClain, C. R. (2017). The Evolution of Energetic Scaling across the Vertebrate Tree of Life. The American Naturalist, 190(2), 185–199. doi:10.1086/692326
 
-
+http://dx.doi.org/10.1086/692326
 
 **Q** Is there overlap between the age estimates for the root and for the internal node?
 
-Yes - root is 163-209 MYA, internal node is 160-198 Mya
+Yes - root is 162-206 MYA, internal node is 160-198 Mya
 
 -----Optional Section ----- 
 
