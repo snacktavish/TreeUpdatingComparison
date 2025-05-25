@@ -1,5 +1,5 @@
 **Q** *Are any of the genera non-monophyletic? What one(s)?*
-Laomedea, Obelia
+Laomedea, Obelia, Edwardsia
 
 
 **Q** *Look at this genus/genera in the tree viewer. What studies break the monophyly of each taxon?*
