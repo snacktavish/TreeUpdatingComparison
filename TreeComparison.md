@@ -138,7 +138,7 @@ main.json contains the the same data in a more computer readable format.
 **Transfer the `output/main.csv` file to the tutorial folder on the cluster, and rename it to `WH_jellies.csv`**
 
 ### Using API's
-You can use the OpenTree API's to get the tree for a subset of taxa directly from the command line
+You can use the OpenTree API's and taxon id numbers to get the tree for a subset of taxa directly from the command line
 
 For example:
 ```
