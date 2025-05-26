@@ -256,8 +256,8 @@ python find_trees.py 937560 --property ot:ottId
 This is beta functionality, that we are in the process of adding to the OpenTree services.
 The API docs are posted at https://github.com/OpenTreeOfLife/chronosynth/wiki/Draft-API
 
-You can query the study corpus based on either a higher taxon id (e.g. Python ott675102), or an internal node label (e.g. mrcaott1000311ott3643727).
-
+You can query the study corpus based on either a higher taxon id (e.g. Python ott675102), or an internal node label (e.g. mrcaott1000311ott3643727).  
+If you take a look at the tree file lizards.tre, you can see the internal node labels.  
 The dates API will return the ages of internal nodes of input trees that align with that node.
 
 e.g.
