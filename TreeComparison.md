@@ -282,7 +282,7 @@ Open 'lizard_ages_dates.txt'.
 **Q** *Is there overlap between the age estimates for the root and for the internal node?*
 
 
-You can also gather node age data for a single taxon.
+You can also gather node age data for a single taxon, as long as it is not a tip of the tree.
 
 ```
 python  get_dates.py --ott-ids 675102 --output python_ages
