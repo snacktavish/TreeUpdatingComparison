@@ -8,7 +8,7 @@ Maronna 2016, Cuhna 2017, Leclere 2009, Rodriguez 2014
 
 **Q** *Is there conflict among the input sources? Does the alternate resolution demonstrate reciprocal monophyly?*
 
-There is conflict across the different Cunha trees, but still not reciprocal monophyly.
+There is conflict across the different Cunha trees, but neither of these genera appear monophyletic in any of the trees.
 
 **Q** *We lost a taxon! Which one? Why?*
 
