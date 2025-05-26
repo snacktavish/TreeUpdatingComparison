@@ -69,7 +69,7 @@ The majority rule consensus tree is in the file `bootstrap_results/RAxML_biparti
 
 ## Using an alternate reference
 
-The reference that you choose can affect your consensus sequence calling, and therefore your phylogenetic inference. Lets see what happens if we try assembling these new taxa, but using the outgroup as a reference instead.
+The reference that you choose can affect your consensus sequence calling, and therefore your phylogenetic inference. Lets see what happens if we try assembling these new taxa, but using the outgroup, "ERR2525602" as a reference instead.
 
 
 The consensus aligned sequence for each run is saved in combine_and_infer/seqname_align.fas (Where 'seqname' is the filename stub of the reads).
