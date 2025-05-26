@@ -129,7 +129,7 @@ Once you have accepted names for each of the taxa, click "save nameset".
 
 *Make sure your mappings were saved! If you don't 'accept' matches, they don't download.*
 
-Download the zip file to your laptop.
+Download the zip file to your laptop (renaming it through the browser doens't currently work).
 Extract the files.
 Take a look at the human readable version (output/main.csv).
 
