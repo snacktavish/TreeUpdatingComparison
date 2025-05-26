@@ -186,7 +186,7 @@ Open the synthetic subtree in figtree, and the citations in a text viewer.
 **Q** *Look at this genus/genera in the tree viewer (tree.opentreeoflife.org). What studies break the monophyly of each taxon?*
 
 
-**Q** *Is there conflict among the input sources? Does the alternate resolution demonstrate reciprocal monophyly of these genera?*
+**Q** *Is there conflict among the input sources? Is there any tree from these studies that recovers either of these genera as monophyletic?*
 
 
 ## Comparing trees
