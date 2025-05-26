@@ -107,7 +107,7 @@ Because these sequences are already aligned, we can just concatenate them to for
     cat EP_demo/RESULTS/extended.aln EP_demo_alternate_ref/combine_and_infer/SRR19310037_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19310038_align.fas EP_demo_alternate_ref/combine_and_infer/SRR19127720_align.fas > combined_refs.fas
 
 
-We can then estimate a tree on this updated alignment - e.g. using RAxML (or any other phylogenetic inference software)
+We can then estimate a tree on this updated alignment  
 
     iqtree3 -s combined_refs.fas -m TVM+F+R2 --prefix compare_references
 
