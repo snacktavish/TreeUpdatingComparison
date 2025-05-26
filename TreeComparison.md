@@ -268,7 +268,7 @@ curl -X GET https://dates.opentreeoflife.org/v4/dates/synth_node_age/ott675102
 
 
 The python script get_dates.py translates the short form citations into their full citation information.
-It outputs the tree if you input a list of ids, and a date file with age estimates and citations for nodes.
+It outputs the tree if you input a list of ids, and a date file with age estimates and citations for nodes (look at the tree file to see which node is which).
 
 ```
 python  get_dates.py --ott-ids 970153 675102 937560 --output lizard_ages
