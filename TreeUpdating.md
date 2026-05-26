@@ -78,7 +78,7 @@ To compare sequences, you can concatenate them, and look at them in your preferr
 
 I have also included a small python script that counts the differences between aligned sequences. To run, replace '[id]_align.fas' with the names of files you want to compare (_e.g._ `SRR19310038_align.fas`).
 
-    python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas*
+    python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas
 
 You can run three instances of this code, once for each file, or you can practice your bash skills a little bit and try to do all of them with one command. Take a look at [this bash script cheatsheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet) and consider how to write a for loop to run the command above for each file. Then reveal the block below to check if you were correct!
 
