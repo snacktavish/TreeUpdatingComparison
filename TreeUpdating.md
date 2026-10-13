@@ -9,7 +9,7 @@ We will compare sequences assembled from short read data using a few different p
 
 Log into the cluster and get the files for this example using git:
     
-    git pull git@github.com:snacktavish/TreeUpdatingComparison.git
+    git clone https://github.com/snacktavish/TreeUpdatingComparison.git
     cd TreeUpdatingComparison/Neisseria_demo
 
 
