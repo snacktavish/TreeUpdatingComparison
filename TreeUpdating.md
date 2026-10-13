@@ -80,20 +80,6 @@ I have also included a small python script that counts the differences between a
 
     python diff_counter.py EP_demo/combine_and_infer/[id]_align.fas EP_demo_alternate_ref/combine_and_infer/[id]_align.fas
 
-You can run three instances of this code, once for each file, or you can practice your bash skills a little bit and try to do all of them with one command. Take a look at [this bash script cheatsheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet) and consider how to write a for loop to run the command above for each file. Then reveal the block below to check if you were correct!
-
-<details>
-  <summary>Check the command</summary>
-    
-```
-for s in SRR19127720 SRR19310037 SRR19310038; do
-  python diff_counter.py EP_demo/combine_and_infer/${s}_align.fas EP_demo_alternate_ref/combine_and_infer/${s}_align.fas
-done
-```
-  
-</details>
-
-You can run this as-is on the command-line, or you can add it to a script (_e.g._ `run_diff.sh`) and run it with `bash run_diff.sh`.
 
 **Q Does changing the reference taxon change the inferred sequences?**
 
@@ -115,6 +101,3 @@ Take a look at your ML tree in figtree.
 **Q Does changing the reference taxon change the phylogeny or inferences you would make from it?**
 
 
-## Answers
-The answers to the questions are posted at:  
-https://github.com/snacktavish/TreeUpdatingComparison/blob/master/answers/Updating_tree_exercise_answers.md
